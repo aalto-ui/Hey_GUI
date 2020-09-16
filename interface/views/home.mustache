@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset=utf-8" />
+  <title>Conversations with GUIs</title>
+  <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/home.css" />
+  <link rel="stylesheet" type="text/css" href="css/chatbot.css" />
+  <!-- Common libs. Don't defer loading! -->
+  <script src="js/vendor/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/vendor/popper-1.14.7.min.js"></script>
+  <script src="js/vendor/bootstrap-4.0.0.min.js"></script>
+  <script src="js/vendor/ajax.min.js"></script>
+  <script src="js/vendor/bsmodal.min.js"></script>
+</head>
+<body class="p-2">
+
+  <noscript>
+    <div class="alert alert-warning" role="alert">
+      <b>Warning:</b> Please enable JavaScript to use this application.
+    </div>
+  </noscript>
+
+  <header>
+  </header>
+
+  <div class="vertical-center">
+    <main class="container">
+      <div class="row">
+        <section class="col-8 mx-auto">
+          {{> chatbot}}
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+  </footer>
+
+  <div class="modal fade" id="modal-alert" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
