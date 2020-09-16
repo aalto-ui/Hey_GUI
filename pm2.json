@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name"       : "recommender",
+      "name"       : "conv-recommender",
 
       "cwd"        : "/var/www/conversations/recommender",
       "script"     : "python3",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "name"       : "chatbot-actions",
+      "name"       : "conv-chatbot-actions",
 
       "cwd"        : "/var/www/conversations/chatbot",
       "script"     : "./start-actions.sh",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "name"       : "chatbot-endpoints",
+      "name"       : "conv-chatbot-endpoints",
 
       "cwd"        : "/var/www/conversations/chatbot",
       "script"     : "./start-endpoints.sh",
