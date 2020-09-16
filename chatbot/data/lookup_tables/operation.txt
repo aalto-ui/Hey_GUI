@@ -1,0 +1,10 @@
+add
+take
+create
+insert
+select
+choose
+move
+put
+place
+delete

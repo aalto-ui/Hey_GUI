@@ -1,0 +1,51 @@
+{
+  "apps": [
+    {
+      "name"       : "recommender",
+
+      "cwd"        : "/var/www/conversations/recommender",
+      "script"     : "python3",
+      "args"       : "server.py",
+
+      "pid_file"   : "./logs/recommender.pid",
+      "out_file"   : "./logs/recommender.log",
+      "error_file" : "./logs/recommender.err",
+      "merge_logs" : true,
+
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"       : "chatbot-actions",
+
+      "cwd"        : "/var/www/conversations/chatbot",
+      "script"     : "./start-actions.sh",
+
+      "pid_file"   : "./logs/chatbot-actions.pid",
+      "out_file"   : "./logs/chatbot-actions.log",
+      "error_file" : "./logs/chatbot-actions.err",
+      "merge_logs" : true,
+
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"       : "chatbot-endpoints",
+
+      "cwd"        : "/var/www/conversations/chatbot",
+      "script"     : "./start-endpoints.sh",
+
+      "pid_file"   : "./logs/chatbot-endpoints.pid",
+      "out_file"   : "./logs/chatbot-endpoints.log",
+      "error_file" : "./logs/chatbot-endpoints.err",
+      "merge_logs" : true,
+
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+
+  ]
+}

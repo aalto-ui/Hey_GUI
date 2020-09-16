@@ -1,0 +1,177 @@
+actions:
+- suggest_post
+- intent_save
+- item_extraction
+- shortcut_submit
+- optimizer_post
+- slots_reset
+- recommender_designs_post
+- recommender_apps_post
+- clear_canvas_submit
+- utter_ask_aligning
+- utter_ask_anchor
+- utter_ask_comparison
+- utter_ask_component
+- utter_ask_direction
+- utter_ask_operation
+- utter_ask_scaling
+- utter_default
+- utter_done
+- utter_sorry
+- utter_undo
+- utter_welcome
+- utter_wrong_aligning
+- utter_wrong_anchor
+- utter_wrong_comparison
+- utter_wrong_component
+- utter_wrong_direction
+- utter_wrong_operation
+- utter_wrong_scaling
+- utter_wrong_choice
+entities:
+- anchor
+- choice
+- comparison
+- items
+- component
+- dimension
+- direction
+- distance
+- operation
+- unit
+- app_category
+- design_topic
+forms:
+- command_form
+- suggest_form
+intents:
+- chitchat
+- deny
+- object
+- greet
+- scale
+- shortcut
+- optimize
+- suggest
+- option
+- help
+- recommend_category
+- recommend_topic
+- clear_canvas
+- component_challenge
+responses:
+  utter_help:
+  - text: "<i>I can assist you in the following design tasks: </i>
+          <ol>
+            <li>Create a design based on a template</li>
+            <li>Optimize your current design layout</li>
+            <li>Show you design suggestions</li>
+          </ol>
+          <i>Explicit, low-level commands are also allowed:</i>
+          <ol>
+            <li>Add a new UI component</li>
+            <li>Select/Move/Delete an existing component</li>
+            <li>Scale an existing component</li>
+            <li>Align multiple components</li>
+          </ol>"
+  utter_wrong_choice:
+  - text: Please say one of the available options.
+  utter_component_challenge:
+  - text: "I can recognize the following UI components: advertisement, background image, bottom navigation, button bar, card,
+          checkbox, drawer panel, tab, number stepper, toggle, pager indicator, radio button, modal,
+          slider, button, toolbar, video, web view, list, map, calendar, image, text, input field, modal window"
+  utter_ask_aligning:
+  - text: Do you want to align or justify these components?
+  utter_ask_anchor:
+  - text: Which kind of anchor component do you want?
+  utter_ask_comparison:
+  - text: Do you want to make the component bigger or smaller?
+  utter_ask_component:
+  - text: Which kind of component do you want?
+  utter_ask_direction:
+  - text: Which direction do you want? Say e.g. "left", "top", "top left", "bottom right", etc.
+  utter_ask_operation:
+  - text: what do you want to do with it? I can add, move, select, or delete.
+  utter_ask_scaling:
+  - text: Do you want increase or decrease the size?
+  utter_default:
+  - text: "Sorry, I don't understand. Maybe you want to:
+          <ol>
+            <li>Create a design based on a template</li>
+            <li>Optimize your current layout</li>
+            <li>Show you more design suggestions</li>
+            <li>Add a new component</li>
+            <li>Select/Move/Delete an existing component</li>
+            <li>Scale an existing component</li>
+            <li>Align multiple components</li>
+          </ol>
+          </br>"
+  utter_done:
+  - text: Let me try.
+  - text: Let me try it.
+  - text: I'll do my best.
+  - text: You command is my mission.
+  - text: You voice is my command.
+  - text: Sure thing!
+  - text: Here you go.
+  utter_sorry:
+  - text: I'm sorry :( <br/>
+          What can I do for you next?
+  utter_undo:
+  - text: Got it. Went back to the previous state.
+  utter_redo:
+  - text: Done. Just restored the state.
+  utter_welcome:
+  - text: Hi, what can I do for you?
+  utter_wrong_aligning:
+  - text: Sorry, I didn't get it. You can say e.g. "left align", "center align" or "justify".
+  utter_wrong_anchor:
+  - text: The {anchor} type is not in my database, please say another component.
+  utter_wrong_comparison:
+  - text: Do you want to make the component bigger, smaller, wider, or as big/small as other component?
+  utter_wrong_component:
+  - text: That component is not in my database, please try again.
+  utter_wrong_direction:
+  - text: Which direction? You can say e.g. "left", "top", "top left", "bottom right", etc.
+  utter_wrong_operation:
+  - text: That operation is not in my database. You can add, move, select, or delete components.
+  utter_wrong_scaling:
+  - text: Sorry, do you mean to increase or decrease the size?
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  anchor:
+    type: unfeaturized
+  items:
+    type: list
+  comparison:
+    type: unfeaturized
+  component:
+    type: unfeaturized
+  dimension:
+    type: unfeaturized
+  direction:
+    type: unfeaturized
+  distance:
+    type: unfeaturized
+  form_intent:
+    type: unfeaturized
+  operation:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  unit:
+    type: unfeaturized
+  choice:
+    type: unfeaturized
+  thumbnail_1:
+    type: unfeaturized
+  thumbnail_2:
+    type: unfeaturized
+  thumbnail_3:
+    type: unfeaturized
+  app_category:
+    type: unfeaturized
+  design_topic:
+    type: unfeaturized

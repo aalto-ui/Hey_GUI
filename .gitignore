@@ -1,0 +1,14 @@
+.*
+*~
+
+node_modules
+logs
+ __pycache__
+
+*.pyc
+*.zip
+*.bak
+*.log
+*.ign
+
+recommender/enrico

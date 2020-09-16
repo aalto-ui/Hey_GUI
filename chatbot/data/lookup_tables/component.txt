@@ -1,0 +1,60 @@
+advertisement
+ad
+
+background image
+
+bottom navigation
+navigation
+
+drawer panel
+panel
+
+tab
+button bar
+card
+checkbox
+
+number stepper
+stepper
+
+toggle
+switch
+
+pager indicator
+pagination
+
+radio button
+
+slider
+button
+toolbar
+video
+
+web view
+web page
+
+list
+map
+canvas
+it
+them
+all
+none
+
+date picker
+calendar
+
+image
+picture
+
+text
+title
+paragraph
+
+input field
+text field
+
+modal window
+pop up window
+modal
+popup
