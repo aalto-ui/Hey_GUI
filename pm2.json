@@ -1,6 +1,22 @@
 {
   "apps": [
     {
+      "name"       : "conv-interface",
+
+      "cwd"        : "/var/www/conversations/interface",
+      "script"     : "npm",
+      "args"       : "start",
+
+      "pid_file"   : "./logs/interface.pid",
+      "out_file"   : "./logs/interface.log",
+      "error_file" : "./logs/interface.err",
+      "merge_logs" : true,
+
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
       "name"       : "conv-recommender",
 
       "cwd"        : "/var/www/conversations/recommender",
