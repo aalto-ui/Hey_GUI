@@ -89,6 +89,13 @@ msgerInput.addEventListener('keyup', function(event) {
     }
 });
 
+// Give focus to the input text to begin with.
+msgerInput.focus();
+
+// Greeting.
+botResponse('Hi! Say "Help" or write some message.');
+
+
 function submitForm() {
     const msgText = msgerInput.value;
     if (!msgText) return;
@@ -100,9 +107,6 @@ function submitForm() {
         NLU.intent(res);
     });
 }
-
-// Greeting.
-botResponse('Hi! Say "Help" or write some message.');
 
 function appendMessage(name, img, side, text) {
     // NB: Ensure that the NLU server always return HTML.
