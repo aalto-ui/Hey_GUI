@@ -1,7 +1,7 @@
 {
-  "name": "sketchui",
+  "name": "chatbot-interface",
   "version": "1.0.0",
-  "description": "A graphical user interface for drawing UI wireframes.",
+  "description": "A graphical user interface to interact with chatbots.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
