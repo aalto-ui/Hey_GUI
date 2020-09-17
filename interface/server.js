@@ -4,7 +4,7 @@ const pkg = require('./package.json');
 const app = express();
 
 // FIXME: Make the port number configurable.
-const port = 3000;
+const port = 3001;
 
 // Set up template engine.
 // TODO: Maybe make the engine configurable as well.
