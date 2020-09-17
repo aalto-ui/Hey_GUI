@@ -14,7 +14,7 @@ app.set('view engine', 'mustache');
 app.set('views', __dirname + '/views');
 
 // Serve static assets.
-app.use(express.static(__dirname + '/public'));
+app.use('/conversations', express.static(__dirname + '/public'));
 
 // Accept POST requests; i.e. application/x-www-form-urlencoded data.
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 
 // Set up routes.
 var routes = require('./routes');
-app.use('/', routes);
+app.use('/conversations', routes);
 
 // Launch app.
 app.listen(port, () => console.log(`App ${pkg.name} runing on port ${port}!`));
