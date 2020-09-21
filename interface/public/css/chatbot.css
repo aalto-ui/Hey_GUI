@@ -6,7 +6,8 @@
   --right-msg-bg: #579ffb;
 }
 
-.chat-container {
+.chat-container,
+.msger {
   height: 90vh;
   font-family: sans-serif;
 }
@@ -16,12 +17,14 @@
   flex-flow: column wrap;
   justify-content: space-between;
   width: 100%;
-  max-width: 867px;
-  height: calc(100% - 50px);
   border: var(--border);
   border-radius: 5px;
   background: var(--msger-bg);
   box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+  /* TODO */
 }
 
 .msger-header {
