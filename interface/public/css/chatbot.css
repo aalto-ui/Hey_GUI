@@ -16,7 +16,6 @@
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  width: 100%;
   border: var(--border);
   border-radius: 5px;
   background: var(--msger-bg);
@@ -26,7 +25,6 @@
 @media only screen and (min-width: 992px) {
   /* Desktop only */
   .chat-container {
-    width: 90%;
     max-width: 850px;
   }
 }
@@ -118,8 +116,8 @@
   border-top: var(--border);
   background: #eee;
 }
-.msger-inputarea * {
-  padding: 10px;
+.msger-inputarea input {
+  padding: 5px;
   border: none;
   border-radius: 3px;
   font-size: 1em;
