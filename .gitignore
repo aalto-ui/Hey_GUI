@@ -11,4 +11,6 @@ logs
 *.log
 *.ign
 
+interface/*.ndjson
+
 recommender/enrico
