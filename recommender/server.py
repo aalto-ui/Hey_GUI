@@ -4,20 +4,179 @@
 import sys
 import json
 import csv
+import os
 from random import shuffle
+from datetime import datetime
 from operator import itemgetter
 from flask import Flask, request, jsonify
 
 
 app = Flask(__name__)
+app.config['JSON_AS_ASCII'] = False
+
 msg = {
-    'ERR_NO_INPUT': 'No input data provided (code: E100)',
-    'ERR_NO_RESULT': 'No result (code: E200)'
+    100: 'No input data provided',
+    101: 'Property not found',
+    200: 'OK',
+    400: 'No results'
 }
 
 
+def normalize(obj):
+    obj['category'] = obj['category'].lower()
+    obj['rating'] = float(obj['rating'])
+    obj['num_ratings'] = int(obj['num_ratings'])
+    obj['num_downloads'] = parse_downloads(obj['num_downloads'])
+    obj['date'] = parse_date(obj['date'])
+    return obj
+
+
+def parse_downloads(s):
+    # Format is like " 1,000,000 - 5,000,000 "
+    lo, hi = s.strip().split(' - ')
+    lo = lo.replace(',', '')
+    lo = int(lo)
+    hi = hi.replace(',', '')
+    hi = int(hi)
+    return (lo + hi) // 2
+
+
+def parse_date(s, fmt='%B %d, %Y'):
+    dt = datetime.strptime(s, fmt)
+    return datetime.timestamp(dt)
+
+
+def find_by_ui(screen_id, objs=None):
+    if objs is None:
+        objs = app_categories[:]
+    filtered = [] # TODO
+    return filtered
+
+
+def find_by_category(name, objs=None):
+    if objs is None:
+        objs = app_categories[:]
+    filtered = [row for row in objs if row['category'] == name]
+    return filtered
+
+
+def find_by_design(name, objs=None):
+    if objs is None:
+        objs = app_categories[:]
+    filtered = [row for row in objs if row['design'] == name]
+    return filtered
+
+
+def ranker(objs, sortby=None, desc=True):
+    if not sortby:
+        fn = lambda k: ['rating', 'num_ratings', 'num_downloads']
+    elif sortby.startswith('rand'):
+        shuffle(objs)
+        return objs
+    else:
+        fn = itemgetter(sortby)
+
+    candidates = sorted(objs, key=fn, reverse=desc)
+    return candidates
+
+
+def paginator(values, page=1, num=1):
+    pages = [values[i:i+num] for i in range(0, len(values), num)]
+    index = page - 1
+    return pages[index] if index >= 0 and index < len(pages) else []
+
+
+@app.route("/", methods=['GET', 'POST'])
+def check():
+    return jsonify({'alive': True, 'code': 200})
+
+
+@app.route("/info", methods=['GET'])
+def get_app():
+    # Parse query params.
+    screen_id = request.args.get('screen_id', None)
+    prop = request.args.get('prop', None)
+
+    if not screen_id:
+        return jsonify({'error': msg[100], 'code': 100})
+
+    filepath = './enrico/metadata/{}.json'.format(screen_id)
+    if not os.path.exists(filepath):
+        return jsonify({'error': msg[400], 'code': 400})
+
+    with open(filepath) as f:
+        metadata = json.load(f)
+
+    if not metadata:
+        return jsonify({'error': msg[400], 'code': 400})
+
+    if not prop:
+        return jsonify({'data': metadata, 'code': 200})
+
+    if prop not in metadata:
+        return jsonify({'error': msg[101], 'code': 101})
+
+    return jsonify({'data': metadata[prop], 'code': 200})
+
+
+@app.route("/results", methods=['GET'])
+def get_results():
+    # Parse query params.
+    screen_id = request.args.get('screen_id', None)
+    category = request.args.get('category', '').lower()
+    design = request.args.get('design', '').lower()
+    num_results = int(request.args.get('num', 3))
+    num_page = int(request.args.get('page', 1))
+    sort_by = request.args.get('sort', None)
+    sort_asc = request.args.get('asc', False)
+
+    results = find(category=category, design=design, screen_id=screen_id,
+                  num=num_results, page=num_page, sort=sort_by, desc=not sort_asc)
+
+    if not results:
+        return jsonify({'error': msg[400], 'code': 400})
+    return jsonify({'data': results, 'code': 200})
+
+
+def find(category=None, design=None, screen_id=None, num=1, page=1, sort=None, desc=True):
+    # By default will return all UIs.
+    objs = app_categories[:]
+
+    if category:
+        objs = find_by_category(category, objs)
+
+    if design:
+        objs = find_by_design(design, objs)
+
+    if screen_id:
+        objs = find_by_ui(screen_id, objs)
+
+    if not objs:
+        return False
+
+    objs = ranker(objs, sort, desc)
+
+    # We must return IDs.
+    ids = [o['screen_id'] for o in objs]
+    ids = paginator(ids, page, num)
+
+    return ids
+
+
+# Load basic datasets. TODO: Use a proper database.
+with open('enrico-topics.csv') as csvfile:
+    col_names = ['screen_id', 'design']
+    design_topics = list(csv.DictReader(csvfile, delimiter=',', fieldnames=col_names))
+    design_topics.pop(0)
+
+# Map IDs to topics.
+design_dict = {}
+for row in design_topics:
+    design_dict[row['screen_id']] = row['design']
+
+# Merge with app details dataset.
 with open('enrico-app_details.csv') as csvfile:
-    col_names = ['image_id', 'pkg_name', 'app_name', 'category', 'avg_rating', 'num_ratings', 'est_downloads', 'date', 'icon_url']
+    col_names = ['screen_id', 'pkg_name', 'app_name', 'category', 'rating', 'num_ratings', 'num_downloads', 'date', 'icon_url']
     app_categories = list(csv.DictReader(csvfile, delimiter=',', quotechar='"', fieldnames=col_names))
     app_categories.pop(0)
 
@@ -26,111 +185,11 @@ with open('enrico-app_details.csv') as csvfile:
         if not row['app_name']:
             app_categories.pop(i)
             continue
+        if row['screen_id'] in design_dict:
+            row['design'] = design_dict[row['screen_id']]
 
-# Normalize values were available, e.g. lowercase category, cast numbers, etc.
-def review(obj):
-    obj['category'] = obj['category'].lower()
-    obj['avg_rating'] = float(obj['avg_rating'])
-    obj['num_ratings'] = int(obj['num_ratings'])
-    obj['est_downloads'] = obj['est_downloads'].strip()
-    return obj
-
-app_categories = [review(row) for row in app_categories]
-
-
-with open('enrico-topics.csv') as csvfile:
-    col_names = ['image_id', 'topic']
-    design_topics = list(csv.DictReader(csvfile, delimiter=',', fieldnames=col_names))
-    design_topics.pop(0)
-
-
-def rank_ids(obj_list, sortby=None, desc=True):
-    # NB: `sortby` should be 'avg_rating', 'num_ratings', or 'date'.
-    if not sortby or sortby.startswith('rand'):
-        shuffle(obj_list)
-        return [entry['image_id'] for entry in obj_list]
-
-    # Use descending sort by default, i.e. from highest to lowest values.
-    candidates = sorted(obj_list, key=itemgetter(sortby), reverse=desc)
-    return [entry['image_id'] for entry in candidates]
-
-
-def find_apps(category=None, num=2, sortby=None):
-    if not category:
-        # Pick candidates at random from any category.
-        filtered_apps = app_categories[:]
-        shuffle(filtered_apps)
-    else:
-        # Filter apps by category.
-        filtered_apps = [row for row in app_categories if category in row['category']]
-
-    if not filtered_apps:
-        return None
-
-    return rank_ids(filtered_apps, sortby)[:num]
-
-
-def find_designs(topic=None, num=2, sortby=None):
-    if not topic:
-        # Pick candidates at random.
-        filtered_ids = [design['image_id'] for design in design_topics]
-        shuffle(filtered_ids)
-    else:
-        # Filter designs by category.
-        filtered_ids = [design['image_id'] for design in design_topics if topic in design['topic']]
-
-    if not filtered_ids:
-        return None
-
-    # The Enrico file doesn't have metadata, so get that info from the apps dataset.
-    filtered_topics = [row for row in app_categories for image_id in filtered_ids if row['image_id'] == image_id]
-
-    return rank_ids(filtered_topics, sortby)[:num]
-
-
-def find_similar(layout, num=1):
-    # TODO: Implement this method.
-    # We should load all JSONs into memory (e.g. kd-tree) to speed up computations.
-    return None
-
-
-@app.route("/", methods=['GET', 'POST'])
-def check():
-    return jsonify({'alive': True, 'error': None})
-
-
-@app.route("/apps", methods=['GET'])
-def get_apps():
-    category = request.args.get('category', '').lower()
-    num_results = request.args.get('num', 3)
-    sort_by = request.args.get('sort', None)
-
-    result = find_apps(category, num=int(num_results), sortby=sort_by)
-    if not result:
-        return jsonify({'error': msg['ERR_NO_RESULT']})
-    return jsonify({'data': result})
-
-
-@app.route("/designs", methods=['GET'])
-def get_designs():
-    topic = request.args.get('topic', '').lower()
-    num_results = request.args.get('num', 3)
-    sort_by = request.args.get('sort', None)
-
-    result = find_designs(topic, num=int(num_results), sortby=sort_by)
-    if not result:
-        return jsonify({'error': msg['ERR_NO_RESULT']})
-    return jsonify({'data': result})
-
-
-@app.route("/similar", methods=['POST'])
-def post_similar():
-    content = request.json
-    if content is None:
-        return jsonify({'error': msg['ERR_NO_INPUT']})
-
-    result = find_similar(content)
-    return jsonify({'data': result})
+# Finally normalize data.
+app_categories = [normalize(row) for row in app_categories]
 
 
 if __name__ == "__main__":
