@@ -168,7 +168,10 @@ def get_results():
 
 
 def find(category=None, design=None, screen_id=None,
-         rating_range=(0, 5), num_ratings_range=(0, 1e10),
+         rating_range=(0, 5),
+         num_ratings_range=(0, None),
+         num_downloads_range=(0, None),
+         date_range=(0, None),
          num=1, page=1, sort=None, desc=True):
     # By default will return all UIs.
     objs = app_categories[:]
