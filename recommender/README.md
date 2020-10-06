@@ -5,6 +5,19 @@ e.g. similarity, top-rated apps or num. downloads (based on Rico), and design to
 
 ## Setup
 
+Download some Enrico dataset file first.
+
+```sh
+~$ mkdir enrico
+~$ cd enrico
+~$ wget http://userinterfaces.aalto.fi/enrico/resources/metadata.zip
+~$ wget http://userinterfaces.aalto.fi/enrico/resources/screenshots.zip
+~$ unzip -q metadata.zip
+~$ unzip -q screenshots.zip
+```
+
+Then install and run the API server.
+
 ```sh
 ~$ pip3 install flask
 ~$ python3 server.py
