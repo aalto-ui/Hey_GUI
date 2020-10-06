@@ -130,15 +130,15 @@ Both `category` and `design` can be combined:
 ```
 
 Results can be sorted by `rating`, `num_ratings`, `num_downloads`, and `date`.
-If no `sortby` param is provided, results are magically sorted.
+If no `sort` param is provided, results are magically sorted.
 ```
-/results?design=login&sortby=rating # retrieve top ranked login designs
+/results?design=login&sort=rating # retrieve top ranked login designs
 ```
 
 The default sorting method is **descending** (from higher to lower),
 but ascending sort can be set with the `asc` param:
 ```
-/results?design=login&sortby=rating&asc=1 # retrieve the lowest ranked login designs
+/results?design=login&sort=rating&asc=1 # retrieve the lowest ranked login designs
 ```
 
 Pagination is useful when there are a lot of results and we want to inspect them in smaller groups.
