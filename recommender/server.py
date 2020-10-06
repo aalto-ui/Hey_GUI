@@ -16,7 +16,9 @@ app.config['JSON_AS_ASCII'] = False
 
 msg = {
     100: 'No input data provided',
-    101: 'Property not found',
+    101: 'File not found',
+    102: 'File is empty',
+    103: 'Property not found in file',
     200: 'OK',
     400: 'No results'
 }
@@ -102,19 +104,19 @@ def get_app():
 
     filepath = './enrico/metadata/{}.json'.format(screen_id)
     if not os.path.exists(filepath):
-        return jsonify({'error': msg[400], 'code': 400})
+        return jsonify({'error': msg[101], 'code': 101})
 
     with open(filepath) as f:
         metadata = json.load(f)
 
     if not metadata:
-        return jsonify({'error': msg[400], 'code': 400})
+        return jsonify({'error': msg[102], 'code': 102})
 
     if not prop:
         return jsonify({'data': metadata, 'code': 200})
 
     if prop not in metadata:
-        return jsonify({'error': msg[101], 'code': 101})
+        return jsonify({'error': msg[103], 'code': 103})
 
     return jsonify({'data': metadata[prop], 'code': 200})
 
