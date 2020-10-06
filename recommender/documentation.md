@@ -151,7 +151,7 @@ It is possible to specify values for min/max `rating`, `num_ratings`, `num_downl
 ```
 
 NB: Any `date` must be passed in as a Unix timestamp.
-For example, `datetime.now()` returns the current date as Unix timestamp.
+For example, `datetime.now().timestamp()` returns the current date as Unix timestamp.
 
 By default: `min_rating` is 0.0, `max_rating` is 5.0, `min_num_ratings` is 0, `max_num_ratings` is 1e10, `min_num_downloads` is 0, `max_num_downloads` is 1e10, `min_date` is 0, and `max_date` is the current timestamp.
 
