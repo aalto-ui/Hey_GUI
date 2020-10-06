@@ -145,7 +145,7 @@ def get_results():
     max_num_downloads = int(request.args.get('max_num_downloads', 1e10))
     min_date = float(request.args.get('min_date', 0.))
     max_date = float(request.args.get('max_date', datetime.now()))
-    num_results = int(request.args.get('num', 3))
+    num_results = int(request.args.get('num', 5))
     num_page = int(request.args.get('page', 1))
     sort_by = request.args.get('sort', None)
     sort_asc = request.args.get('asc', False)
