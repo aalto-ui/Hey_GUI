@@ -12,19 +12,9 @@ e.g. similarity, top-rated apps or num. downloads (based on Rico), and design to
  * Running on http://127.0.0.1:9100/ (Press CTRL+C to quit)
 ```
 
-## API endpoint examples
+## API documentation
 
-Retrieve 3 top-rated examples of Beauty apps:
-```sh
-~$ curl 'http://127.0.0.1:9100/apps?category=beauty'
-["43948","43947","4066"]
-```
-
-Retrieve 5 top-rated examples of login screens:
-```sh
-~$ curl 'http://127.0.0.1:9100/designs?topic=login&num=5'
-["36126","47338","59514","1622","51137"]
-```
+See [this file](documentation.md)
 
 ## App categories
 
