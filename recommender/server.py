@@ -82,6 +82,16 @@ def ranker(objs, sortby=None, desc=True):
     return candidates
 
 
+def ranger(objs, props_dic):
+    filtered = objs[:]
+    for key, rango in props_dic.items():
+        hi, lo = rango
+        for i, obj in enumerate(filtered):
+            if obj[key] < lo or obj[key] > hi:
+                filtered.pop(i)
+    return filtered
+
+
 def paginator(values, page=1, num=1):
     pages = [values[i:i+num] for i in range(0, len(values), num)]
     index = page - 1
@@ -127,12 +137,24 @@ def get_results():
     screen_id = request.args.get('screen_id', None)
     category = request.args.get('category', '').lower()
     design = request.args.get('design', '').lower()
+    min_rating = float(request.args.get('min_rating', 0.))
+    max_rating = float(request.args.get('max_rating', 5.))
+    min_num_ratings = int(request.args.get('min_num_ratings', 0))
+    max_num_ratings = int(request.args.get('max_num_ratings', 1e10))
+    min_num_downloads = int(request.args.get('min_num_downloads', 0))
+    max_num_downloads = int(request.args.get('max_num_downloads', 1e10))
+    min_date = float(request.args.get('min_date', 0.))
+    max_date = float(request.args.get('max_date', datetime.now()))
     num_results = int(request.args.get('num', 3))
     num_page = int(request.args.get('page', 1))
     sort_by = request.args.get('sort', None)
     sort_asc = request.args.get('asc', False)
 
     results = find(category=category, design=design, screen_id=screen_id,
+                  rating_range=(min_rating, max_rating),
+                  num_ratings_range=(min_num_ratings, max_num_ratings),
+                  num_downloads_range=(min_num_downloads, max_num_downloads),
+                  date_range=(min_date, max_date),
                   num=num_results, page=num_page, sort=sort_by, desc=not sort_asc)
 
     if not results:
@@ -141,7 +163,9 @@ def get_results():
     return jsonify({'data': results, 'code': 200})
 
 
-def find(category=None, design=None, screen_id=None, num=1, page=1, sort=None, desc=True):
+def find(category=None, design=None, screen_id=None,
+         rating_range=(0, 5), num_ratings_range=(0, 1e10),
+         num=1, page=1, sort=None, desc=True):
     # By default will return all UIs.
     objs = app_categories[:]
 
@@ -158,6 +182,12 @@ def find(category=None, design=None, screen_id=None, num=1, page=1, sort=None, d
         return False
 
     objs = ranker(objs, sort, desc)
+    objs = ranger(objs, {
+        'rating': rating_range,
+        'num_ratings': num_ratings_range,
+        'num_downloads': num_downloads_range,
+        'date': date_range,
+    })
 
     # We must return IDs.
     ids = [o['screen_id'] for o in objs]

@@ -129,6 +129,8 @@ Both `category` and `design` can be combined:
 /results?category=news&design=login # retrieve news apps with a login design
 ```
 
+#### Sorting
+
 Results can be sorted by `rating`, `num_ratings`, `num_downloads`, and `date`.
 If no `sort` param is provided, results are magically sorted.
 ```
@@ -140,6 +142,20 @@ but ascending sort can be set with the `asc` param:
 ```
 /results?design=login&sort=rating&asc=1 # retrieve the lowest ranked login designs
 ```
+
+#### Value ranges
+
+It is possible to specify values for min/max `rating`, `num_ratings`, `num_downloads`, and `date`.
+```
+/results?design=login&sort=rating&min_rating=4 # retrieve top ranked login designs with rating >= 4.0
+```
+
+NB: Any `date` must be passed in as a Unix timestamp.
+For example, `datetime.now()` returns the current date as Unix timestamp.
+
+By default: `min_rating` is 0.0, `max_rating` is 5.0, `min_num_ratings` is 0, `max_num_ratings` is 1e10, `min_num_downloads` is 0, `max_num_downloads` is 1e10, `min_date` is 0, and `max_date` is the current timestamp.
+
+#### Pagination
 
 Pagination is useful when there are a lot of results and we want to inspect them in smaller groups.
 ```
