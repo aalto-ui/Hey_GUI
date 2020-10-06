@@ -136,6 +136,7 @@ def get_app():
 
 @app.route("/results", methods=['GET'])
 def get_results():
+    curr_ts = datetime.now().timestamp()
     # Parse query params.
     screen_id = request.args.get('screen_id', None)
     category = request.args.get('category', '').lower()
@@ -147,7 +148,7 @@ def get_results():
     min_num_downloads = int(request.args.get('min_num_downloads', 0))
     max_num_downloads = int(request.args.get('max_num_downloads', 1e10))
     min_date = float(request.args.get('min_date', 0.))
-    max_date = float(request.args.get('max_date', datetime.now()))
+    max_date = float(request.args.get('max_date', curr_ts))
     num_results = int(request.args.get('num', 5))
     num_page = int(request.args.get('page', 1))
     sort_by = request.args.get('sort', None)
