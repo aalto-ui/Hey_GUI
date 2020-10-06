@@ -77,7 +77,6 @@ def ranker(objs, sortby=None, desc=True):
         return objs
     else:
         fn = itemgetter(sortby)
-
     candidates = sorted(objs, key=fn, reverse=desc)
     return candidates
 
@@ -101,9 +100,16 @@ def paginator(values, page=1, num=1):
     return pages[index] if index >= 0 and index < len(pages) else []
 
 
+def response(data=None, err_code=None):
+    if not err_code:
+        return jsonify({'data': data, 'code': 200})
+
+    return jsonify({'error': msg[err_code], 'code': err_code})
+
+
 @app.route("/", methods=['GET', 'POST'])
 def check():
-    return jsonify({'alive': True, 'code': 200})
+    return response('Up and running!')
 
 
 @app.route("/info", methods=['GET'])
@@ -113,25 +119,25 @@ def get_app():
     prop = request.args.get('prop', None)
 
     if not screen_id:
-        return jsonify({'error': msg[100], 'code': 100})
+        return response(err_code=100)
 
     filepath = './enrico/metadata/{}.json'.format(screen_id)
     if not os.path.exists(filepath):
-        return jsonify({'error': msg[101], 'code': 101})
+        return response(err_code=101)
 
     with open(filepath) as f:
         metadata = json.load(f)
 
     if not metadata:
-        return jsonify({'error': msg[102], 'code': 102})
+        return response(err_code=102)
 
     if not prop:
-        return jsonify({'data': metadata, 'code': 200})
+        return response(data=metadata)
 
     if prop not in metadata:
-        return jsonify({'error': msg[103], 'code': 103})
+        return response(err_code=103)
 
-    return jsonify({'data': metadata[prop], 'code': 200})
+    return response(data=metadata[prop])
 
 
 @app.route("/results", methods=['GET'])
@@ -162,9 +168,9 @@ def get_results():
                   num=num_results, page=num_page, sort=sort_by, desc=not sort_asc)
 
     if not results:
-        return jsonify({'error': msg[400], 'code': 400})
+        return response(err_code=400)
 
-    return jsonify({'data': results, 'code': 200})
+    return response(data=results)
 
 
 def find(category=None, design=None, screen_id=None,
