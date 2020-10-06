@@ -85,9 +85,12 @@ def ranker(objs, sortby=None, desc=True):
 def ranger(objs, props_dic):
     filtered = objs[:]
     for key, rango in props_dic.items():
-        hi, lo = rango
+        lo, hi = rango
         for i, obj in enumerate(filtered):
-            if obj[key] < lo or obj[key] > hi:
+            if key not in obj:
+                continue
+            if (lo is not None and obj[key] < lo) \
+            or (hi is not None and obj[key] > hi):
                 filtered.pop(i)
     return filtered
 
