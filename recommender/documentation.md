@@ -1,5 +1,7 @@
 # CUI recommender API
 
+See [the README](README.md) first.
+
 The API is RESTful and JSON-based.
 The server is running in port 9001 by default:
 ```
@@ -16,7 +18,7 @@ The server is running in port 9001 by default:
 To check if the API is up and running you can send the following request from your CLI:
 ```
 ~$ curl 'http://127.0.0.1:9100/'
-{"alive":true,"code":200}
+{"data":"Up and running!","code":200}
 ```
 
 ## Endpoints
