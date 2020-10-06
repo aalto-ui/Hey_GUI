@@ -3,7 +3,6 @@
 
 import sys
 import json
-import csv
 import os
 from random import shuffle
 from datetime import datetime
@@ -22,30 +21,6 @@ msg = {
     200: 'OK',
     400: 'No results'
 }
-
-
-def normalize(obj):
-    obj['category'] = obj['category'].lower()
-    obj['rating'] = float(obj['rating'])
-    obj['num_ratings'] = int(obj['num_ratings'])
-    obj['num_downloads'] = parse_downloads(obj['num_downloads'])
-    obj['date'] = parse_date(obj['date'])
-    return obj
-
-
-def parse_downloads(s):
-    # Format is like " 1,000,000 - 5,000,000 "
-    lo, hi = s.strip().split(' - ')
-    lo = lo.replace(',', '')
-    lo = int(lo)
-    hi = hi.replace(',', '')
-    hi = int(hi)
-    return (lo + hi) // 2
-
-
-def parse_date(s, fmt='%B %d, %Y'):
-    dt = datetime.strptime(s, fmt)
-    return datetime.timestamp(dt)
 
 
 def find_by_ui(screen_id, objs=None):
@@ -209,33 +184,9 @@ def find(category=None, design=None, screen_id=None,
     return ids
 
 
-# Load basic datasets. TODO: Use a proper database.
-with open('enrico-topics.csv') as csvfile:
-    col_names = ['screen_id', 'design']
-    design_topics = list(csv.DictReader(csvfile, delimiter=',', fieldnames=col_names))
-    design_topics.pop(0)
-
-# Map IDs to topics.
-design_dict = {}
-for row in design_topics:
-    design_dict[row['screen_id']] = row['design']
-
-# Merge with app details dataset.
-with open('enrico-app_details.csv') as csvfile:
-    col_names = ['screen_id', 'pkg_name', 'app_name', 'category', 'rating', 'num_ratings', 'num_downloads', 'date', 'icon_url']
-    app_categories = list(csv.DictReader(csvfile, delimiter=',', quotechar='"', fieldnames=col_names))
-    app_categories.pop(0)
-
-    # Some Rico screenshots have no associated app details, so ignore them.
-    for i, row in enumerate(app_categories):
-        if not row['app_name']:
-            app_categories.pop(i)
-            continue
-        if row['screen_id'] in design_dict:
-            row['design'] = design_dict[row['screen_id']]
-
-# Finally normalize data.
-app_categories = [normalize(dict(row)) for row in app_categories if 'design' in row]
+# NEW: We now have a proper database.
+with open('cuidb.json') as f:
+    app_categories = json.load(f)
 
 if __name__ == "__main__":
     app.run(port=9100)
