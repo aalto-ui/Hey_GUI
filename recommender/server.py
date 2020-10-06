@@ -137,6 +137,7 @@ def get_results():
 
     if not results:
         return jsonify({'error': msg[400], 'code': 400})
+
     return jsonify({'data': results, 'code': 200})
 
 
@@ -191,8 +192,7 @@ with open('enrico-app_details.csv') as csvfile:
             row['design'] = design_dict[row['screen_id']]
 
 # Finally normalize data.
-app_categories = [normalize(row) for row in app_categories]
-
+app_categories = [normalize(dict(row)) for row in app_categories if 'design' in row]
 
 if __name__ == "__main__":
     app.run(port=9100)
