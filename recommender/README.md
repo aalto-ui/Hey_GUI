@@ -36,7 +36,6 @@ See [this file](documentation.md)
 * Beauty
 * Books, Reference
 * Business
-* Category
 * Comics
 * Communication
 * Dating
