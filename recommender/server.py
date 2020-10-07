@@ -33,13 +33,17 @@ def find_by_ui(screen_id, objs=None):
 def find_by_category(name, objs=None):
     if objs is None:
         objs = app_categories[:]
-    filtered = [row for row in objs if row['category'] == name]
+    # Some categories are multi-word, e.g. "art & design", "music & audio", etc.
+    # so let's search for substrings.
+    filtered = [row for row in objs if name in row['category']]
     return filtered
 
 
 def find_by_design(name, objs=None):
     if objs is None:
         objs = app_categories[:]
+    # All design topics are single-word, e.g. "login", "camera", etc.
+    # so let's do an exact search.
     filtered = [row for row in objs if row['design'] == name]
     return filtered
 
