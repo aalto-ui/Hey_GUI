@@ -1,7 +1,0 @@
-up
-down
-bigger
-smaller
-larger
-increase
-decrease
