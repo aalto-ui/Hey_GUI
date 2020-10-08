@@ -18,7 +18,7 @@ router.post('/intent', (req, res) => {
     console.log('Intent request from editor:', JSON.stringify(userContent));
 
     // TODO: Edit this URL accordingly.
-    let backendServer = 'http://localhost:5005/webhooks/myio/webhook';
+    let backendServer = 'http://localhost:5006/webhooks/myio/webhook';
 
     return needle('post', backendServer, userContent, { json: true })
     .then(response => res.json({ action: response.body }))
