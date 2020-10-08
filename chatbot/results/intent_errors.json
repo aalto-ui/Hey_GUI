@@ -1,0 +1,682 @@
+[
+  {
+    "text": "show more interface",
+    "intent": "show_more",
+    "intent_prediction": {
+      "name": "search_ui",
+      "confidence": 0.5512552153977265
+    }
+  },
+  {
+    "text": "find result ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.5329270277462188
+    }
+  },
+  {
+    "text": "give example ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.4035409900621285
+    }
+  },
+  {
+    "text": "give interface by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.6374827263779779
+    }
+  },
+  {
+    "text": "give interface ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.43187997655432575
+    }
+  },
+  {
+    "text": "can you give design by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.36346664110647464
+    }
+  },
+  {
+    "text": "give design ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.4327724768822768
+    }
+  },
+  {
+    "text": "find UIs ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.5627853083012496
+    }
+  },
+  {
+    "text": "give designs by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.6386775060126284
+    }
+  },
+  {
+    "text": "[*0.1] can you show comics terms examples with a rating worse than 4",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5094685317461691
+    }
+  },
+  {
+    "text": "can you give interfaces by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.37930089073324863
+    }
+  },
+  {
+    "text": "give UIs ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.5672555774210541
+    }
+  },
+  {
+    "text": "show UIs by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.6625584407074857
+    }
+  },
+  {
+    "text": "[*0.1] can you find events menu example with a rating below 3",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.4191585499711371
+    }
+  },
+  {
+    "text": "[*0.1] give medical news example with a rating more than 3",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.635015149573906
+    }
+  },
+  {
+    "text": "[*0.1] give house menu results",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.4781466554083322
+    }
+  },
+  {
+    "text": "show result by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.6291307904798177
+    }
+  },
+  {
+    "text": "Which example has the least rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.43492611215464544
+    }
+  },
+  {
+    "text": "show UI ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.5812977892907236
+    }
+  },
+  {
+    "text": "[*0.1] what are the least rating for weather terms designs",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.46396101163268216
+    }
+  },
+  {
+    "text": "find example ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.3870304108054747
+    }
+  },
+  {
+    "text": "find result by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.7158413338101107
+    }
+  },
+  {
+    "text": "find example with the least rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5764124245295396
+    }
+  },
+  {
+    "text": "show UIs ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.4484067023813043
+    }
+  },
+  {
+    "text": "[*0.1] show drink bare applications with a rating below 4",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.504762328256655
+    }
+  },
+  {
+    "text": "[*0.1] can you give food other UI",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.4914698157370394
+    }
+  },
+  {
+    "text": "find UI ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.6826463056234026
+    }
+  },
+  {
+    "text": "[*0.1] show me maps mediaplayer UIs",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5199621207673868
+    }
+  },
+  {
+    "text": "give mediaplayer example with a rating higher than",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.4590351833594703
+    }
+  },
+  {
+    "text": "give UI with the least rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5401032641357592
+    }
+  },
+  {
+    "text": "find interfaces ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.42376893215447287
+    }
+  },
+  {
+    "text": "can you give UI by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.5792923487113592
+    }
+  },
+  {
+    "text": "give lowest rating finance UI",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.48533877014070315
+    }
+  },
+  {
+    "text": "show bare example",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.6391069211928262
+    }
+  },
+  {
+    "text": "find UIs by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.7445472707309029
+    }
+  },
+  {
+    "text": "give other designs",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "show_more",
+      "confidence": 0.4732609411341653
+    }
+  },
+  {
+    "text": "[*0.1] show music maps example with a rating better than 3",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.6295091709286776
+    }
+  },
+  {
+    "text": "[*0.1] what are the least rating for audio maps UIs",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.46739215093919423
+    }
+  },
+  {
+    "text": "[*0.1] give me players camera example with a rating more than 3",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.6343567288326268
+    }
+  },
+  {
+    "text": "find design by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.6023695617751308
+    }
+  },
+  {
+    "text": "find interface by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.6011938855947706
+    }
+  },
+  {
+    "text": "[*0.1] give vehicles menu UI",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.45077357730914813
+    }
+  },
+  {
+    "text": "find UIs with the least rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.515362925224894
+    }
+  },
+  {
+    "text": "[*0.1] find travel mediaplayer example",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.6045504566327373
+    }
+  },
+  {
+    "text": "[*0.1] give education other interface",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.46631100043505547
+    }
+  },
+  {
+    "text": "give UI ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.6906669965128611
+    }
+  },
+  {
+    "text": "[*0.1] can you give maps other results",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5526510879730813
+    }
+  },
+  {
+    "text": "can you give me books results",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "show_more",
+      "confidence": 0.4034074142973123
+    }
+  },
+  {
+    "text": "give health results",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "show_more",
+      "confidence": 0.4192698323526177
+    }
+  },
+  {
+    "text": "[*0.1] give music settings UI with a rating better than 4.5",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.4260899912059642
+    }
+  },
+  {
+    "text": "give application ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.40461520222330744
+    }
+  },
+  {
+    "text": "can you find design by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.35252175428927846
+    }
+  },
+  {
+    "text": "show UIs with the least rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.48860013667917923
+    }
+  },
+  {
+    "text": "[*0.1] give communication search result with a rating less than 3",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5292863327715013
+    }
+  },
+  {
+    "text": "[*0.1] what are the least rating for lifestyle other designs",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5290472977930554
+    }
+  },
+  {
+    "text": "[*0.1] find house list UI",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.43473823807014284
+    }
+  },
+  {
+    "text": "can you give me UI by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.3721783950094195
+    }
+  },
+  {
+    "text": "[*0.1] give drink profile interfaces with a rating lower than 4",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5840860606783169
+    }
+  },
+  {
+    "text": "[*0.1] what are the least rating for magazines mediaplayer example",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5738041446301895
+    }
+  },
+  {
+    "text": "show example by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.45412908632982524
+    }
+  },
+  {
+    "text": "can you give maps UIs",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "show_more",
+      "confidence": 0.4101172425199549
+    }
+  },
+  {
+    "text": "give UIs with the least rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.6140164297734878
+    }
+  },
+  {
+    "text": "[*0.1] find fitness news example with a rating worse than 4",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.49861021954535145
+    }
+  },
+  {
+    "text": "[*0.1] find category editor example",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.48353304450834605
+    }
+  },
+  {
+    "text": "[*0.1] can you give me dating terms example with a rating under 4",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5514503859497304
+    }
+  },
+  {
+    "text": "find results by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.5769420573050635
+    }
+  },
+  {
+    "text": "what are the least rating for players result",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.4518579110827002
+    }
+  },
+  {
+    "text": "[*0.1] give me social other results",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.48257015754975313
+    }
+  },
+  {
+    "text": "give results ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.4126238915268118
+    }
+  },
+  {
+    "text": "[*0.1] give finance tutorial result with a rating under 4",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.4123703478689784
+    }
+  },
+  {
+    "text": "give lifestyle UIs",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "show_more",
+      "confidence": 0.32960646967630847
+    }
+  },
+  {
+    "text": "show me UI by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.46438745590437513
+    }
+  },
+  {
+    "text": "[*0.1] find vehicles search example",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.6267999878012633
+    }
+  },
+  {
+    "text": "[*0.1] give category tutorial UI",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.4221750225654601
+    }
+  },
+  {
+    "text": "give interfaces by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.6613805757829873
+    }
+  },
+  {
+    "text": "give interfaces ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.45722675318437267
+    }
+  },
+  {
+    "text": "[*0.1] what are the most rating for events other UIs",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5749346898456488
+    }
+  },
+  {
+    "text": "give form results",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "show_more",
+      "confidence": 0.4163476159114176
+    }
+  },
+  {
+    "text": "can you give results by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.32292960372352236
+    }
+  },
+  {
+    "text": "[*0.1] give vehicles other interfaces with a rating more than 3",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.7002250126178299
+    }
+  },
+  {
+    "text": "give list example",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.5776226917888421
+    }
+  },
+  {
+    "text": "[*0.1] can you give events list examples",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.41221594226616987
+    }
+  },
+  {
+    "text": "give designs ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.4383777034696938
+    }
+  },
+  {
+    "text": "give result ordered by rating",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "sort",
+      "confidence": 0.5437025145259199
+    }
+  },
+  {
+    "text": "[*0.1] can you show health terms example",
+    "intent": "search_ui",
+    "intent_prediction": {
+      "name": "similar_ui",
+      "confidence": 0.40735977986553845
+    }
+  }
+]

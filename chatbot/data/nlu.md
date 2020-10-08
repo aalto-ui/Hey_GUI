@@ -29,6 +29,11 @@
 - give me more results
 - show me more designs
 - give me more examples
+- can you show more results
+- can you find more examples
+- find me more interfaces
+- can you give me more applications
+- can you show me more UIs
 
 ## intent:similar_ui
 - which are the best alternatives for the app [2](choice)
@@ -46,10 +51,6 @@
 
 
 ## intent:search_ui
-- Can you show a list by [popularity](filter)?
-- Filter them by [popularity](filter)
-- Filter them by star [rating](filter)
-- Filter them by [rating](filter)
 - What are the [most](asc) [popular](filter) apps at the moment
 - What are the [most](asc) [popular](filter) [finance](app) apps at the moment
 - What are the [most](asc) [popular](filter) [list](design) pages at the moment
@@ -148,15 +149,11 @@
 - Filter them by [popularity](filter)
 - Filter them by star [rating](filter)
 - Filter them by [rating](filter)
-- Show me the app with the best [rating](filter)
-- Show me the most popular apps ordered by average [rating](filter)
-- show me ui's with [highest](asc) [rating](filter)
-- Which app has the [highest](asc) [score](filter)
-- Which app has the [lowest](asc) [score](filter)?
-- What's the [most](asc) [popular](filter) app?
-- Can you show a list by [popularity](filter)?
-- What are the [most](asc) [popular](filter) apps at the moment
 - order them by average [rating](filter)
+- sort UI by [popularity](filter)
+- can you sort UI by [popularity](filter)
+- can you order UI by [popularity](filter)
+- can you sort UI by average [rating](filter)
 
 
 ## intent:clear_memory

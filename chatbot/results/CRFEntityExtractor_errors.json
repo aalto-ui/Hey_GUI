@@ -1,0 +1,7134 @@
+[
+  {
+    "text": "order interfaces by average rating",
+    "entities": [
+      {
+        "end": 34,
+        "entity": "filter",
+        "start": 20,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934278877318528,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter application by average rating",
+    "entities": [
+      {
+        "end": 44,
+        "entity": "filter",
+        "start": 30,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 38,
+        "end": 44,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788541593148,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sort example by average rating",
+    "entities": [
+      {
+        "end": 30,
+        "entity": "filter",
+        "start": 16,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342790084006871,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter designs by average rating",
+    "entities": [
+      {
+        "end": 40,
+        "entity": "filter",
+        "start": 26,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788615494408,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter design by average rating",
+    "entities": [
+      {
+        "end": 39,
+        "entity": "filter",
+        "start": 25,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342800438337947,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you sort result by average rating",
+    "entities": [
+      {
+        "end": 37,
+        "entity": "filter",
+        "start": 23,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789675654826,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "order UI by average rating",
+    "entities": [
+      {
+        "end": 26,
+        "entity": "filter",
+        "start": 12,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342818195854605,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sort UIs by average rating",
+    "entities": [
+      {
+        "end": 26,
+        "entity": "filter",
+        "start": 12,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789343464982,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter UI by average rating",
+    "entities": [
+      {
+        "end": 35,
+        "entity": "filter",
+        "start": 21,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342818187432894,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order examples by average rating",
+    "entities": [
+      {
+        "end": 40,
+        "entity": "filter",
+        "start": 26,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789093993734,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sort UI by average rating",
+    "entities": [
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 11,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342818189393002,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter results by average rating",
+    "entities": [
+      {
+        "end": 40,
+        "entity": "filter",
+        "start": 26,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789488539716,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you sort examples by average rating",
+    "entities": [
+      {
+        "end": 39,
+        "entity": "filter",
+        "start": 25,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789083266825,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "filter example by average rating",
+    "entities": [
+      {
+        "end": 32,
+        "entity": "filter",
+        "start": 18,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342790100920462,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "order results by average rating",
+    "entities": [
+      {
+        "end": 31,
+        "entity": "filter",
+        "start": 17,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789509576769,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "filter UI by average rating",
+    "entities": [
+      {
+        "end": 27,
+        "entity": "filter",
+        "start": 13,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342818194117761,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order UIs by average rating",
+    "entities": [
+      {
+        "end": 35,
+        "entity": "filter",
+        "start": 21,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789347690273,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sort design by average rating",
+    "entities": [
+      {
+        "end": 29,
+        "entity": "filter",
+        "start": 15,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934280044497388,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "filter UIs by average rating",
+    "entities": [
+      {
+        "end": 28,
+        "entity": "filter",
+        "start": 14,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934278935364428,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sort designs by average rating",
+    "entities": [
+      {
+        "end": 30,
+        "entity": "filter",
+        "start": 16,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788616991241,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sort result by average rating",
+    "entities": [
+      {
+        "end": 29,
+        "entity": "filter",
+        "start": 15,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789688124198,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you sort applications by average rating",
+    "entities": [
+      {
+        "end": 43,
+        "entity": "filter",
+        "start": 29,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 37,
+        "end": 43,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934278833767939,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order applications by average rating",
+    "entities": [
+      {
+        "end": 44,
+        "entity": "filter",
+        "start": 30,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 38,
+        "end": 44,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934278834014262,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "order applications by average rating",
+    "entities": [
+      {
+        "end": 36,
+        "entity": "filter",
+        "start": 22,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788341998476,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sort interfaces by average rating",
+    "entities": [
+      {
+        "end": 33,
+        "entity": "filter",
+        "start": 19,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 27,
+        "end": 33,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788764233526,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you sort interfaces by average rating",
+    "entities": [
+      {
+        "end": 41,
+        "entity": "filter",
+        "start": 27,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 35,
+        "end": 41,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788757038637,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "filter examples by average rating",
+    "entities": [
+      {
+        "end": 33,
+        "entity": "filter",
+        "start": 19,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 27,
+        "end": 33,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789098621052,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter interface by average rating",
+    "entities": [
+      {
+        "end": 42,
+        "entity": "filter",
+        "start": 28,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 36,
+        "end": 42,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342791430187575,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "filter results by average rating",
+    "entities": [
+      {
+        "end": 32,
+        "entity": "filter",
+        "start": 18,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789504804386,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter example by average rating",
+    "entities": [
+      {
+        "end": 40,
+        "entity": "filter",
+        "start": 26,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934279007707891,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sort results by average rating",
+    "entities": [
+      {
+        "end": 30,
+        "entity": "filter",
+        "start": 16,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789493280277,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "order application by average rating",
+    "entities": [
+      {
+        "end": 35,
+        "entity": "filter",
+        "start": 21,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788547054645,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "order result by average rating",
+    "entities": [
+      {
+        "end": 30,
+        "entity": "filter",
+        "start": 16,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789706884187,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order interfaces by average rating",
+    "entities": [
+      {
+        "end": 42,
+        "entity": "filter",
+        "start": 28,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 36,
+        "end": 42,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788765564425,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you sort designs by average rating",
+    "entities": [
+      {
+        "end": 38,
+        "entity": "filter",
+        "start": 24,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 32,
+        "end": 38,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788613567596,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order designs by average rating",
+    "entities": [
+      {
+        "end": 39,
+        "entity": "filter",
+        "start": 25,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788618508489,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order results by average rating",
+    "entities": [
+      {
+        "end": 39,
+        "entity": "filter",
+        "start": 25,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.93427894980603,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order interface by average rating",
+    "entities": [
+      {
+        "end": 41,
+        "entity": "filter",
+        "start": 27,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 35,
+        "end": 41,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934279144100184,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order design by average rating",
+    "entities": [
+      {
+        "end": 38,
+        "entity": "filter",
+        "start": 24,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 32,
+        "end": 38,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342800445589213,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "order UIs by average rating",
+    "entities": [
+      {
+        "end": 27,
+        "entity": "filter",
+        "start": 13,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934278935786432,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "filter design by average rating",
+    "entities": [
+      {
+        "end": 31,
+        "entity": "filter",
+        "start": 17,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342800458380113,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you sort design by average rating",
+    "entities": [
+      {
+        "end": 37,
+        "entity": "filter",
+        "start": 23,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342800433152897,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "order example by average rating",
+    "entities": [
+      {
+        "end": 31,
+        "entity": "filter",
+        "start": 17,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934279010789284,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter result by average rating",
+    "entities": [
+      {
+        "end": 39,
+        "entity": "filter",
+        "start": 25,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789682664895,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you sort UIs by average rating",
+    "entities": [
+      {
+        "end": 34,
+        "entity": "filter",
+        "start": 20,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934278933389729,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order UI by average rating",
+    "entities": [
+      {
+        "end": 34,
+        "entity": "filter",
+        "start": 20,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342818191131087,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you sort results by average rating",
+    "entities": [
+      {
+        "end": 38,
+        "entity": "filter",
+        "start": 24,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 32,
+        "end": 38,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789482450407,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "order interface by average rating",
+    "entities": [
+      {
+        "end": 33,
+        "entity": "filter",
+        "start": 19,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 27,
+        "end": 33,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342791454112584,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order result by average rating",
+    "entities": [
+      {
+        "end": 38,
+        "entity": "filter",
+        "start": 24,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 32,
+        "end": 38,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789693623864,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "filter application by average rating",
+    "entities": [
+      {
+        "end": 36,
+        "entity": "filter",
+        "start": 22,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788545814259,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "filter interfaces by average rating",
+    "entities": [
+      {
+        "end": 35,
+        "entity": "filter",
+        "start": 21,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788771655759,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter UIs by average rating",
+    "entities": [
+      {
+        "end": 36,
+        "entity": "filter",
+        "start": 22,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789339277554,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter interfaces by average rating",
+    "entities": [
+      {
+        "end": 43,
+        "entity": "filter",
+        "start": 29,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 37,
+        "end": 43,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788761142674,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sort examples by average rating",
+    "entities": [
+      {
+        "end": 31,
+        "entity": "filter",
+        "start": 17,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789090706548,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sort interface by average rating",
+    "entities": [
+      {
+        "end": 32,
+        "entity": "filter",
+        "start": 18,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934279143559397,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "sort application by average rating",
+    "entities": [
+      {
+        "end": 34,
+        "entity": "filter",
+        "start": 20,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934278854282346,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "filter applications by average rating",
+    "entities": [
+      {
+        "end": 37,
+        "entity": "filter",
+        "start": 23,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788341266554,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you sort application by average rating",
+    "entities": [
+      {
+        "end": 42,
+        "entity": "filter",
+        "start": 28,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 36,
+        "end": 42,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788540012678,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order example by average rating",
+    "entities": [
+      {
+        "end": 39,
+        "entity": "filter",
+        "start": 25,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.934279009103935,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you sort UI by average rating",
+    "entities": [
+      {
+        "end": 33,
+        "entity": "filter",
+        "start": 19,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 27,
+        "end": 33,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342818184950759,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you order application by average rating",
+    "entities": [
+      {
+        "end": 43,
+        "entity": "filter",
+        "start": 29,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 37,
+        "end": 43,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788544065463,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter applications by average rating",
+    "entities": [
+      {
+        "end": 45,
+        "entity": "filter",
+        "start": 31,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 39,
+        "end": 45,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788338682094,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "filter designs by average rating",
+    "entities": [
+      {
+        "end": 32,
+        "entity": "filter",
+        "start": 18,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788620629484,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "order examples by average rating",
+    "entities": [
+      {
+        "end": 32,
+        "entity": "filter",
+        "start": 18,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789101904939,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "filter interface by average rating",
+    "entities": [
+      {
+        "end": 34,
+        "entity": "filter",
+        "start": 20,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342791448722948,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you filter examples by average rating",
+    "entities": [
+      {
+        "end": 41,
+        "entity": "filter",
+        "start": 27,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 35,
+        "end": 41,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342789087450745,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you sort example by average rating",
+    "entities": [
+      {
+        "end": 38,
+        "entity": "filter",
+        "start": 24,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 32,
+        "end": 38,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342790068153037,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "order designs by average rating",
+    "entities": [
+      {
+        "end": 31,
+        "entity": "filter",
+        "start": 17,
+        "value": "average rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9342788622148436,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] What's the highest rating for news tutorial interface",
+    "entities": [
+      {
+        "end": 25,
+        "entity": "asc",
+        "start": 18,
+        "value": "highest"
+      },
+      {
+        "end": 32,
+        "entity": "filter",
+        "start": 26,
+        "value": "rating"
+      },
+      {
+        "end": 41,
+        "entity": "app",
+        "start": 37,
+        "value": "news"
+      },
+      {
+        "end": 50,
+        "entity": "design",
+        "start": 42,
+        "value": "tutorial"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9567448691194498,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9295676689405274,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.5152067040773222,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show category results with a rating below",
+    "entities": [
+      {
+        "end": 13,
+        "entity": "app",
+        "start": 5,
+        "value": "category"
+      },
+      {
+        "end": 41,
+        "entity": "constrain",
+        "start": 36,
+        "value": "below"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "category",
+        "entity": "app",
+        "confidence": 0.8530111648694241,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] what are the lowest rating for news calculator interface",
+    "entities": [
+      {
+        "end": 26,
+        "entity": "asc",
+        "start": 20,
+        "value": "lowest"
+      },
+      {
+        "end": 33,
+        "entity": "filter",
+        "start": 27,
+        "value": "rating"
+      },
+      {
+        "end": 42,
+        "entity": "app",
+        "start": 38,
+        "value": "news"
+      },
+      {
+        "end": 53,
+        "entity": "design",
+        "start": 43,
+        "value": "calculator"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "1",
+        "entity": "asc",
+        "confidence": 0.7161243558269214,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8621048502739083,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.5091406438814653,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give me news modal results with a rating below 3.5",
+    "entities": [
+      {
+        "end": 27,
+        "entity": "app",
+        "start": 23,
+        "value": "news"
+      },
+      {
+        "end": 33,
+        "entity": "design",
+        "start": 28,
+        "value": "modal"
+      },
+      {
+        "end": 61,
+        "entity": "constrain",
+        "start": 56,
+        "value": "below"
+      },
+      {
+        "end": 65,
+        "entity": "rating",
+        "start": 62,
+        "value": "3.5"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.5250212570730824,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 56,
+        "end": 61,
+        "value": "max",
+        "entity": "constrain",
+        "confidence": 0.8318438740991589,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 65,
+        "value": "3.5",
+        "entity": "rating",
+        "confidence": 0.8334919979892134,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you show me maps modal interface with a rating above 4",
+    "entities": [
+      {
+        "end": 27,
+        "entity": "app",
+        "start": 23,
+        "value": "maps"
+      },
+      {
+        "end": 33,
+        "entity": "design",
+        "start": 28,
+        "value": "modal"
+      },
+      {
+        "end": 63,
+        "entity": "constrain",
+        "start": 58,
+        "value": "above"
+      },
+      {
+        "end": 65,
+        "entity": "rating",
+        "start": 64,
+        "value": "4"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.5662583014544719,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 58,
+        "end": 63,
+        "value": "min",
+        "entity": "constrain",
+        "confidence": 0.8716821085127329,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 65,
+        "value": "4",
+        "entity": "rating",
+        "confidence": 0.8026579652768143,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show me news application with a rating below",
+    "entities": [
+      {
+        "end": 20,
+        "entity": "design",
+        "start": 16,
+        "value": "news"
+      },
+      {
+        "end": 52,
+        "entity": "constrain",
+        "start": 47,
+        "value": "below"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.6011812739534126,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give food designs with a rating below",
+    "entities": [
+      {
+        "end": 9,
+        "entity": "app",
+        "start": 5,
+        "value": "food"
+      },
+      {
+        "end": 37,
+        "entity": "constrain",
+        "start": 32,
+        "value": "below"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "food",
+        "entity": "app",
+        "confidence": 0.5969608758940201,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the most rating for news examples",
+    "entities": [
+      {
+        "end": 15,
+        "entity": "asc",
+        "start": 11,
+        "value": "most"
+      },
+      {
+        "end": 22,
+        "entity": "filter",
+        "start": 16,
+        "value": "rating"
+      },
+      {
+        "end": 31,
+        "entity": "app",
+        "start": 27,
+        "value": "news"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9298321396487791,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9373166925312155,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 27,
+        "end": 31,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.623077274278297,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you give me least rating maps results",
+    "entities": [
+      {
+        "end": 21,
+        "entity": "asc",
+        "start": 16,
+        "value": "least"
+      },
+      {
+        "end": 28,
+        "entity": "filter",
+        "start": 22,
+        "value": "rating"
+      },
+      {
+        "end": 33,
+        "entity": "design",
+        "start": 29,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.5293409140106559,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.6225083758736188,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show least rating finance UIs",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "asc",
+        "start": 13,
+        "value": "least"
+      },
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 19,
+        "value": "rating"
+      },
+      {
+        "end": 33,
+        "entity": "app",
+        "start": 26,
+        "value": "finance"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "value": "finance",
+        "entity": "app",
+        "confidence": 0.9219609975092607,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the most rating for news example",
+    "entities": [
+      {
+        "end": 15,
+        "entity": "asc",
+        "start": 11,
+        "value": "most"
+      },
+      {
+        "end": 22,
+        "entity": "filter",
+        "start": 16,
+        "value": "rating"
+      },
+      {
+        "end": 31,
+        "entity": "app",
+        "start": 27,
+        "value": "news"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9298306722407841,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9373145514091938,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 27,
+        "end": 31,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.6147622755248909,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you give maps example with a rating better than",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "app",
+        "start": 13,
+        "value": "maps"
+      },
+      {
+        "end": 51,
+        "entity": "constrain",
+        "start": 40,
+        "value": "better than"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.597694883764131,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 40,
+        "end": 51,
+        "value": "min",
+        "entity": "constrain",
+        "confidence": 0.8623793666533728,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "can you show me least rating editor UI",
+    "entities": [
+      {
+        "end": 21,
+        "entity": "asc",
+        "start": 16,
+        "value": "least"
+      },
+      {
+        "end": 28,
+        "entity": "filter",
+        "start": 22,
+        "value": "rating"
+      },
+      {
+        "end": 35,
+        "entity": "design",
+        "start": 29,
+        "value": "editor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.5481674014355932,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "editor",
+        "entity": "design",
+        "confidence": 0.9481032714680713,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you show news menu UI",
+    "entities": [
+      {
+        "end": 24,
+        "entity": "app",
+        "start": 20,
+        "value": "news"
+      },
+      {
+        "end": 29,
+        "entity": "design",
+        "start": 25,
+        "value": "menu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.5554912887379666,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you find events menu example with a rating below 3",
+    "entities": [
+      {
+        "end": 26,
+        "entity": "app",
+        "start": 20,
+        "value": "events"
+      },
+      {
+        "end": 31,
+        "entity": "design",
+        "start": 27,
+        "value": "menu"
+      },
+      {
+        "end": 59,
+        "entity": "constrain",
+        "start": 54,
+        "value": "below"
+      },
+      {
+        "end": 61,
+        "entity": "rating",
+        "start": 60,
+        "value": "3"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "events",
+        "entity": "app",
+        "confidence": 0.7971528109678041,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 54,
+        "end": 59,
+        "value": "max",
+        "entity": "constrain",
+        "confidence": 0.6252962945769335,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 61,
+        "value": "3",
+        "entity": "rating",
+        "confidence": 0.5329672066656241,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] show design camera designs",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "app",
+        "start": 12,
+        "value": "design"
+      },
+      {
+        "end": 25,
+        "entity": "design",
+        "start": 19,
+        "value": "camera"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "camera",
+        "entity": "design",
+        "confidence": 0.6713263749491324,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "find maps designs",
+    "entities": [
+      {
+        "end": 9,
+        "entity": "app",
+        "start": 5,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.5961339848979206,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] give house menu results",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "app",
+        "start": 12,
+        "value": "house"
+      },
+      {
+        "end": 22,
+        "entity": "design",
+        "start": 18,
+        "value": "menu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "house",
+        "entity": "app",
+        "confidence": 0.8413887490252726,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you show me highest rating fitness modal examples",
+    "entities": [
+      {
+        "end": 30,
+        "entity": "asc",
+        "start": 23,
+        "value": "highest"
+      },
+      {
+        "end": 37,
+        "entity": "filter",
+        "start": 31,
+        "value": "rating"
+      },
+      {
+        "end": 45,
+        "entity": "app",
+        "start": 38,
+        "value": "fitness"
+      },
+      {
+        "end": 51,
+        "entity": "design",
+        "start": 46,
+        "value": "modal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.8980272769806062,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9005462891758761,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 38,
+        "end": 45,
+        "value": "fitness",
+        "entity": "app",
+        "confidence": 0.9479050113474337,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show me least rating comics interfaces",
+    "entities": [
+      {
+        "end": 21,
+        "entity": "asc",
+        "start": 16,
+        "value": "least"
+      },
+      {
+        "end": 28,
+        "entity": "filter",
+        "start": 22,
+        "value": "rating"
+      },
+      {
+        "end": 35,
+        "entity": "app",
+        "start": 29,
+        "value": "comics"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "comics",
+        "entity": "app",
+        "confidence": 0.9054504216445133,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the best rating for food interfaces",
+    "entities": [
+      {
+        "end": 15,
+        "entity": "asc",
+        "start": 11,
+        "value": "best"
+      },
+      {
+        "end": 22,
+        "entity": "filter",
+        "start": 16,
+        "value": "rating"
+      },
+      {
+        "end": 31,
+        "entity": "app",
+        "start": 27,
+        "value": "food"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9048537594877462,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9151244495136608,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 27,
+        "end": 31,
+        "value": "food",
+        "entity": "design",
+        "confidence": 0.7040759862728552,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "find least rating topic interfaces",
+    "entities": [
+      {
+        "end": 10,
+        "entity": "asc",
+        "start": 5,
+        "value": "least"
+      },
+      {
+        "end": 17,
+        "entity": "filter",
+        "start": 11,
+        "value": "rating"
+      },
+      {
+        "end": 23,
+        "entity": "design",
+        "start": 18,
+        "value": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.4967342126996282,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "value": "topic",
+        "entity": "design",
+        "confidence": 0.9776425188993784,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the highest rating for food interfaces",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "asc",
+        "start": 11,
+        "value": "highest"
+      },
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 19,
+        "value": "rating"
+      },
+      {
+        "end": 34,
+        "entity": "app",
+        "start": 30,
+        "value": "food"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.956774230708629,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9296294861820027,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "value": "food",
+        "entity": "design",
+        "confidence": 0.7040979444991408,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give me least rating health examples",
+    "entities": [
+      {
+        "end": 13,
+        "entity": "asc",
+        "start": 8,
+        "value": "least"
+      },
+      {
+        "end": 20,
+        "entity": "filter",
+        "start": 14,
+        "value": "rating"
+      },
+      {
+        "end": 27,
+        "entity": "app",
+        "start": 21,
+        "value": "health"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "health",
+        "entity": "app",
+        "confidence": 0.9234850278106177,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you find me least rating food menu design",
+    "entities": [
+      {
+        "end": 28,
+        "entity": "asc",
+        "start": 23,
+        "value": "least"
+      },
+      {
+        "end": 35,
+        "entity": "filter",
+        "start": 29,
+        "value": "rating"
+      },
+      {
+        "end": 40,
+        "entity": "app",
+        "start": 36,
+        "value": "food"
+      },
+      {
+        "end": 45,
+        "entity": "design",
+        "start": 41,
+        "value": "menu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.5050573451079914,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "value": "food",
+        "entity": "app",
+        "confidence": 0.6425940697182044,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the highest rating for search application",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "asc",
+        "start": 11,
+        "value": "highest"
+      },
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 19,
+        "value": "rating"
+      },
+      {
+        "end": 36,
+        "entity": "design",
+        "start": 30,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9568204570019813,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9297652602067501,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give me least rating food modal interface",
+    "entities": [
+      {
+        "end": 28,
+        "entity": "asc",
+        "start": 23,
+        "value": "least"
+      },
+      {
+        "end": 35,
+        "entity": "filter",
+        "start": 29,
+        "value": "rating"
+      },
+      {
+        "end": 40,
+        "entity": "app",
+        "start": 36,
+        "value": "food"
+      },
+      {
+        "end": 46,
+        "entity": "design",
+        "start": 41,
+        "value": "modal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.50543276153159,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "value": "food",
+        "entity": "app",
+        "confidence": 0.6421258466460146,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give lowest rating lifestyle search design",
+    "entities": [
+      {
+        "end": 26,
+        "entity": "asc",
+        "start": 20,
+        "value": "lowest"
+      },
+      {
+        "end": 33,
+        "entity": "filter",
+        "start": 27,
+        "value": "rating"
+      },
+      {
+        "end": 43,
+        "entity": "app",
+        "start": 34,
+        "value": "lifestyle"
+      },
+      {
+        "end": 50,
+        "entity": "design",
+        "start": 44,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "1",
+        "entity": "asc",
+        "confidence": 0.5016796181954567,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.7724953473083958,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "value": "lifestyle",
+        "entity": "app",
+        "confidence": 0.918311663593588,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give me maps gallery example",
+    "entities": [
+      {
+        "end": 27,
+        "entity": "app",
+        "start": 23,
+        "value": "maps"
+      },
+      {
+        "end": 35,
+        "entity": "design",
+        "start": 28,
+        "value": "gallery"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.538325280286051,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show least rating modal applications",
+    "entities": [
+      {
+        "end": 10,
+        "entity": "asc",
+        "start": 5,
+        "value": "least"
+      },
+      {
+        "end": 17,
+        "entity": "filter",
+        "start": 11,
+        "value": "rating"
+      },
+      {
+        "end": 23,
+        "entity": "design",
+        "start": 18,
+        "value": "modal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.5052191946750908,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "value": "modal",
+        "entity": "design",
+        "confidence": 0.9010997730360925,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] What's the least rating for food search result",
+    "entities": [
+      {
+        "end": 23,
+        "entity": "asc",
+        "start": 18,
+        "value": "least"
+      },
+      {
+        "end": 30,
+        "entity": "filter",
+        "start": 24,
+        "value": "rating"
+      },
+      {
+        "end": 39,
+        "entity": "app",
+        "start": 35,
+        "value": "food"
+      },
+      {
+        "end": 46,
+        "entity": "design",
+        "start": 40,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "1",
+        "entity": "asc",
+        "confidence": 0.5583738329015042,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.6251844942417571,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 35,
+        "end": 39,
+        "value": "food",
+        "entity": "app",
+        "confidence": 0.5767723799452945,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you give me modal designs with a rating below",
+    "entities": [
+      {
+        "end": 21,
+        "entity": "design",
+        "start": 16,
+        "value": "modal"
+      },
+      {
+        "end": 49,
+        "entity": "constrain",
+        "start": 44,
+        "value": "below"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "modal",
+        "entity": "design",
+        "confidence": 0.8057113853617959,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] show me maps mediaplayer UIs",
+    "entities": [
+      {
+        "end": 19,
+        "entity": "app",
+        "start": 15,
+        "value": "maps"
+      },
+      {
+        "end": 31,
+        "entity": "design",
+        "start": 20,
+        "value": "mediaplayer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.551411078795765,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show design example with a rating above",
+    "entities": [
+      {
+        "end": 11,
+        "entity": "app",
+        "start": 5,
+        "value": "design"
+      },
+      {
+        "end": 39,
+        "entity": "constrain",
+        "start": 34,
+        "value": "above"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 34,
+        "end": 39,
+        "value": "min",
+        "entity": "constrain",
+        "confidence": 0.5146647466512408,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "give least rating navigation interface",
+    "entities": [
+      {
+        "end": 10,
+        "entity": "asc",
+        "start": 5,
+        "value": "least"
+      },
+      {
+        "end": 17,
+        "entity": "filter",
+        "start": 11,
+        "value": "rating"
+      },
+      {
+        "end": 28,
+        "entity": "app",
+        "start": 18,
+        "value": "navigation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "navigation",
+        "entity": "app",
+        "confidence": 0.957183118276544,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] What's the most rating for lifestyle menu interface",
+    "entities": [
+      {
+        "end": 22,
+        "entity": "asc",
+        "start": 18,
+        "value": "most"
+      },
+      {
+        "end": 29,
+        "entity": "filter",
+        "start": 23,
+        "value": "rating"
+      },
+      {
+        "end": 43,
+        "entity": "app",
+        "start": 34,
+        "value": "lifestyle"
+      },
+      {
+        "end": 48,
+        "entity": "design",
+        "start": 44,
+        "value": "menu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9296864592363956,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9371245253462929,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "value": "lifestyle",
+        "entity": "app",
+        "confidence": 0.8273103856228908,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show me least rating drink application",
+    "entities": [
+      {
+        "end": 21,
+        "entity": "asc",
+        "start": 16,
+        "value": "least"
+      },
+      {
+        "end": 28,
+        "entity": "filter",
+        "start": 22,
+        "value": "rating"
+      },
+      {
+        "end": 34,
+        "entity": "app",
+        "start": 29,
+        "value": "drink"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "drink",
+        "entity": "app",
+        "confidence": 0.9358045943040546,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give me highest rating food search examples",
+    "entities": [
+      {
+        "end": 30,
+        "entity": "asc",
+        "start": 23,
+        "value": "highest"
+      },
+      {
+        "end": 37,
+        "entity": "filter",
+        "start": 31,
+        "value": "rating"
+      },
+      {
+        "end": 42,
+        "entity": "app",
+        "start": 38,
+        "value": "food"
+      },
+      {
+        "end": 49,
+        "entity": "design",
+        "start": 43,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9034199433588257,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.907812109092208,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "value": "food",
+        "entity": "app",
+        "confidence": 0.60794531443943,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the lowest rating for maps applications",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 11,
+        "value": "lowest"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 33,
+        "entity": "design",
+        "start": 29,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "1",
+        "entity": "asc",
+        "confidence": 0.7159996913384644,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8619317989566769,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "maps",
+        "entity": "app",
+        "confidence": 0.6075738750012659,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you find me highest rating entertainment mediaplayer example",
+    "entities": [
+      {
+        "end": 30,
+        "entity": "asc",
+        "start": 23,
+        "value": "highest"
+      },
+      {
+        "end": 37,
+        "entity": "filter",
+        "start": 31,
+        "value": "rating"
+      },
+      {
+        "end": 51,
+        "entity": "app",
+        "start": 38,
+        "value": "entertainment"
+      },
+      {
+        "end": 63,
+        "entity": "design",
+        "start": 52,
+        "value": "mediaplayer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.8973053984781962,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8995116379146729,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 38,
+        "end": 51,
+        "value": "entertainment",
+        "entity": "app",
+        "confidence": 0.9155206508500605,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the highest rating for news examples",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "asc",
+        "start": 11,
+        "value": "highest"
+      },
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 19,
+        "value": "rating"
+      },
+      {
+        "end": 34,
+        "entity": "app",
+        "start": 30,
+        "value": "news"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9567579626438707,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9295956418116355,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.6230668948379481,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you give me best rating maps result",
+    "entities": [
+      {
+        "end": 20,
+        "entity": "asc",
+        "start": 16,
+        "value": "best"
+      },
+      {
+        "end": 27,
+        "entity": "filter",
+        "start": 21,
+        "value": "rating"
+      },
+      {
+        "end": 32,
+        "entity": "app",
+        "start": 28,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.8033996496113616,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8747876107537614,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.6434192702518752,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] give least rating books camera interface",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 12,
+        "value": "least"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 30,
+        "entity": "app",
+        "start": 25,
+        "value": "books"
+      },
+      {
+        "end": 37,
+        "entity": "design",
+        "start": 31,
+        "value": "camera"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "books",
+        "entity": "app",
+        "confidence": 0.884760141248832,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "camera",
+        "entity": "design",
+        "confidence": 0.5637763512649817,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show me news results with a rating less than",
+    "entities": [
+      {
+        "end": 12,
+        "entity": "app",
+        "start": 8,
+        "value": "news"
+      },
+      {
+        "end": 44,
+        "entity": "constrain",
+        "start": 35,
+        "value": "less than"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.6004259294678345,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 35,
+        "end": 44,
+        "value": "max",
+        "entity": "constrain",
+        "confidence": 0.8297026502365002,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] show me editors search applications",
+    "entities": [
+      {
+        "end": 22,
+        "entity": "app",
+        "start": 15,
+        "value": "editors"
+      },
+      {
+        "end": 29,
+        "entity": "design",
+        "start": 23,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "editors",
+        "entity": "app",
+        "confidence": 0.9249479450648255,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give me news gallery examples",
+    "entities": [
+      {
+        "end": 27,
+        "entity": "app",
+        "start": 23,
+        "value": "news"
+      },
+      {
+        "end": 35,
+        "entity": "design",
+        "start": 28,
+        "value": "gallery"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.49481936879179556,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give least rating design gallery interface",
+    "entities": [
+      {
+        "end": 25,
+        "entity": "asc",
+        "start": 20,
+        "value": "least"
+      },
+      {
+        "end": 32,
+        "entity": "filter",
+        "start": 26,
+        "value": "rating"
+      },
+      {
+        "end": 39,
+        "entity": "app",
+        "start": 33,
+        "value": "design"
+      },
+      {
+        "end": 47,
+        "entity": "design",
+        "start": 40,
+        "value": "gallery"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 40,
+        "end": 47,
+        "value": "gallery",
+        "entity": "design",
+        "confidence": 0.6357919411870722,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] find me least rating fitness gallery application",
+    "entities": [
+      {
+        "end": 20,
+        "entity": "asc",
+        "start": 15,
+        "value": "least"
+      },
+      {
+        "end": 27,
+        "entity": "filter",
+        "start": 21,
+        "value": "rating"
+      },
+      {
+        "end": 35,
+        "entity": "app",
+        "start": 28,
+        "value": "fitness"
+      },
+      {
+        "end": 43,
+        "entity": "design",
+        "start": 36,
+        "value": "gallery"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 28,
+        "end": 35,
+        "value": "fitness",
+        "entity": "app",
+        "confidence": 0.9360801749307278,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "value": "gallery",
+        "entity": "design",
+        "confidence": 0.5626820177695312,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give news result with a rating above",
+    "entities": [
+      {
+        "end": 9,
+        "entity": "app",
+        "start": 5,
+        "value": "news"
+      },
+      {
+        "end": 36,
+        "entity": "constrain",
+        "start": 31,
+        "value": "above"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.5609022593777085,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "value": "min",
+        "entity": "constrain",
+        "confidence": 0.5146647956358639,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find me least rating parenting UIs",
+    "entities": [
+      {
+        "end": 13,
+        "entity": "asc",
+        "start": 8,
+        "value": "least"
+      },
+      {
+        "end": 20,
+        "entity": "filter",
+        "start": 14,
+        "value": "rating"
+      },
+      {
+        "end": 30,
+        "entity": "app",
+        "start": 21,
+        "value": "parenting"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "value": "parenting",
+        "entity": "app",
+        "confidence": 0.9023393694595614,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give list application with a rating below",
+    "entities": [
+      {
+        "end": 9,
+        "entity": "design",
+        "start": 5,
+        "value": "list"
+      },
+      {
+        "end": 41,
+        "entity": "constrain",
+        "start": 36,
+        "value": "below"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "list",
+        "entity": "design",
+        "confidence": 0.8712975439133908,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] What's the best rating for health search design",
+    "entities": [
+      {
+        "end": 22,
+        "entity": "asc",
+        "start": 18,
+        "value": "best"
+      },
+      {
+        "end": 29,
+        "entity": "filter",
+        "start": 23,
+        "value": "rating"
+      },
+      {
+        "end": 40,
+        "entity": "app",
+        "start": 34,
+        "value": "health"
+      },
+      {
+        "end": 47,
+        "entity": "design",
+        "start": 41,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9046012311381321,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.914789399080663,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "value": "health",
+        "entity": "app",
+        "confidence": 0.8650481886233031,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show me least rating maps designs",
+    "entities": [
+      {
+        "end": 21,
+        "entity": "asc",
+        "start": 16,
+        "value": "least"
+      },
+      {
+        "end": 28,
+        "entity": "filter",
+        "start": 22,
+        "value": "rating"
+      },
+      {
+        "end": 33,
+        "entity": "design",
+        "start": 29,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.5306424460628925,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.6324852365792272,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show me least rating other designs",
+    "entities": [
+      {
+        "end": 13,
+        "entity": "asc",
+        "start": 8,
+        "value": "least"
+      },
+      {
+        "end": 20,
+        "entity": "filter",
+        "start": 14,
+        "value": "rating"
+      },
+      {
+        "end": 26,
+        "entity": "design",
+        "start": 21,
+        "value": "other"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.5419541993611915,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "value": "other",
+        "entity": "design",
+        "confidence": 0.9119432205795366,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show least rating entertainment interface",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "asc",
+        "start": 13,
+        "value": "least"
+      },
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 19,
+        "value": "rating"
+      },
+      {
+        "end": 39,
+        "entity": "app",
+        "start": 26,
+        "value": "entertainment"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 39,
+        "value": "entertainment",
+        "entity": "app",
+        "confidence": 0.9327841233685967,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "find search UIs with a rating better than",
+    "entities": [
+      {
+        "end": 11,
+        "entity": "design",
+        "start": 5,
+        "value": "search"
+      },
+      {
+        "end": 41,
+        "entity": "constrain",
+        "start": 30,
+        "value": "better than"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 30,
+        "end": 41,
+        "value": "min",
+        "entity": "constrain",
+        "confidence": 0.862379367978061,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "show news designs",
+    "entities": [
+      {
+        "end": 9,
+        "entity": "app",
+        "start": 5,
+        "value": "news"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.6608079928211102,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] what are the most rating for finance modal result",
+    "entities": [
+      {
+        "end": 24,
+        "entity": "asc",
+        "start": 20,
+        "value": "most"
+      },
+      {
+        "end": 31,
+        "entity": "filter",
+        "start": 25,
+        "value": "rating"
+      },
+      {
+        "end": 43,
+        "entity": "app",
+        "start": 36,
+        "value": "finance"
+      },
+      {
+        "end": 49,
+        "entity": "design",
+        "start": 44,
+        "value": "modal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9296821244812282,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9371178228687433,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "value": "finance",
+        "entity": "app",
+        "confidence": 0.8320844324542748,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] what are the most rating for design modal result",
+    "entities": [
+      {
+        "end": 24,
+        "entity": "asc",
+        "start": 20,
+        "value": "most"
+      },
+      {
+        "end": 31,
+        "entity": "filter",
+        "start": 25,
+        "value": "rating"
+      },
+      {
+        "end": 42,
+        "entity": "app",
+        "start": 36,
+        "value": "design"
+      },
+      {
+        "end": 48,
+        "entity": "design",
+        "start": 43,
+        "value": "modal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.930006885512887,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9376071185759515,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 43,
+        "end": 48,
+        "value": "modal",
+        "entity": "design",
+        "confidence": 0.5197624303283698,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show me least rating shopping results",
+    "entities": [
+      {
+        "end": 13,
+        "entity": "asc",
+        "start": 8,
+        "value": "least"
+      },
+      {
+        "end": 20,
+        "entity": "filter",
+        "start": 14,
+        "value": "rating"
+      },
+      {
+        "end": 29,
+        "entity": "app",
+        "start": 21,
+        "value": "shopping"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "value": "shopping",
+        "entity": "app",
+        "confidence": 0.903576294601001,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give best rating video search example",
+    "entities": [
+      {
+        "end": 24,
+        "entity": "asc",
+        "start": 20,
+        "value": "best"
+      },
+      {
+        "end": 31,
+        "entity": "filter",
+        "start": 25,
+        "value": "rating"
+      },
+      {
+        "end": 37,
+        "entity": "app",
+        "start": 32,
+        "value": "video"
+      },
+      {
+        "end": 44,
+        "entity": "design",
+        "start": 38,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.7304476043294401,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8190166053988336,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "video",
+        "entity": "app",
+        "confidence": 0.919723814340975,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show me settings result with a rating below",
+    "entities": [
+      {
+        "end": 16,
+        "entity": "design",
+        "start": 8,
+        "value": "settings"
+      },
+      {
+        "end": 43,
+        "entity": "constrain",
+        "start": 38,
+        "value": "below"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "settings",
+        "entity": "design",
+        "confidence": 0.8740928485508823,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] find me medical search UI",
+    "entities": [
+      {
+        "end": 22,
+        "entity": "app",
+        "start": 15,
+        "value": "medical"
+      },
+      {
+        "end": 29,
+        "entity": "design",
+        "start": 23,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "medical",
+        "entity": "app",
+        "confidence": 0.895141736152322,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "find me least rating design application",
+    "entities": [
+      {
+        "end": 13,
+        "entity": "asc",
+        "start": 8,
+        "value": "least"
+      },
+      {
+        "end": 20,
+        "entity": "filter",
+        "start": 14,
+        "value": "rating"
+      },
+      {
+        "end": 27,
+        "entity": "app",
+        "start": 21,
+        "value": "design"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "[*0.1] give me communication menu examples with a rating less than 4.5",
+    "entities": [
+      {
+        "end": 28,
+        "entity": "app",
+        "start": 15,
+        "value": "communication"
+      },
+      {
+        "end": 33,
+        "entity": "design",
+        "start": 29,
+        "value": "menu"
+      },
+      {
+        "end": 66,
+        "entity": "constrain",
+        "start": 57,
+        "value": "less than"
+      },
+      {
+        "end": 70,
+        "entity": "rating",
+        "start": 67,
+        "value": "4.5"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 28,
+        "value": "communication",
+        "entity": "app",
+        "confidence": 0.9555204279515916,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 57,
+        "end": 66,
+        "value": "max",
+        "entity": "constrain",
+        "confidence": 0.9414509343580792,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 70,
+        "value": "4.5",
+        "entity": "rating",
+        "confidence": 0.9805254991825147,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show design application with a rating lower than",
+    "entities": [
+      {
+        "end": 19,
+        "entity": "app",
+        "start": 13,
+        "value": "design"
+      },
+      {
+        "end": 56,
+        "entity": "constrain",
+        "start": 46,
+        "value": "lower than"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 46,
+        "end": 56,
+        "value": "max",
+        "entity": "constrain",
+        "confidence": 0.8622077528908006,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find me least rating settings interfaces",
+    "entities": [
+      {
+        "end": 13,
+        "entity": "asc",
+        "start": 8,
+        "value": "least"
+      },
+      {
+        "end": 20,
+        "entity": "filter",
+        "start": 14,
+        "value": "rating"
+      },
+      {
+        "end": 29,
+        "entity": "design",
+        "start": 21,
+        "value": "settings"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.5527375515988227,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "value": "settings",
+        "entity": "design",
+        "confidence": 0.9779347015018048,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the lowest rating for design application",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 11,
+        "value": "lowest"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 35,
+        "entity": "app",
+        "start": 29,
+        "value": "design"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "1",
+        "entity": "asc",
+        "confidence": 0.7165020385478926,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8626674764366984,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the lowest rating for news result",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 11,
+        "value": "lowest"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 33,
+        "entity": "app",
+        "start": 29,
+        "value": "news"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "1",
+        "entity": "asc",
+        "confidence": 0.7161610802516284,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8621550325904374,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.6180066618355503,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show me least rating food examples",
+    "entities": [
+      {
+        "end": 21,
+        "entity": "asc",
+        "start": 16,
+        "value": "least"
+      },
+      {
+        "end": 28,
+        "entity": "filter",
+        "start": 22,
+        "value": "rating"
+      },
+      {
+        "end": 33,
+        "entity": "app",
+        "start": 29,
+        "value": "food"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.511126625622813,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "food",
+        "entity": "app",
+        "confidence": 0.6045407692075644,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the lowest rating design",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 11,
+        "value": "lowest"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "1",
+        "entity": "asc",
+        "confidence": 0.7385701475870434,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8929422292819138,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "design",
+        "entity": "app",
+        "confidence": 0.4161305728617912,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give maps other results",
+    "entities": [
+      {
+        "end": 24,
+        "entity": "app",
+        "start": 20,
+        "value": "maps"
+      },
+      {
+        "end": 30,
+        "entity": "design",
+        "start": 25,
+        "value": "other"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.4713331833181376,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "other",
+        "entity": "design",
+        "confidence": 0.5005901150097326,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] show me least rating communication editor result",
+    "entities": [
+      {
+        "end": 20,
+        "entity": "asc",
+        "start": 15,
+        "value": "least"
+      },
+      {
+        "end": 27,
+        "entity": "filter",
+        "start": 21,
+        "value": "rating"
+      },
+      {
+        "end": 41,
+        "entity": "app",
+        "start": 28,
+        "value": "communication"
+      },
+      {
+        "end": 48,
+        "entity": "design",
+        "start": 42,
+        "value": "editor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 28,
+        "end": 41,
+        "value": "communication",
+        "entity": "app",
+        "confidence": 0.9344818357509906,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 42,
+        "end": 48,
+        "value": "editor",
+        "entity": "design",
+        "confidence": 0.5833911555194795,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] show least rating events settings design",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 12,
+        "value": "least"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 31,
+        "entity": "app",
+        "start": 25,
+        "value": "events"
+      },
+      {
+        "end": 40,
+        "entity": "design",
+        "start": 32,
+        "value": "settings"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "events",
+        "entity": "app",
+        "confidence": 0.8858133702201854,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 32,
+        "end": 40,
+        "value": "settings",
+        "entity": "design",
+        "confidence": 0.5494580514929044,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] what are the most rating for design tutorial interface",
+    "entities": [
+      {
+        "end": 24,
+        "entity": "asc",
+        "start": 20,
+        "value": "most"
+      },
+      {
+        "end": 31,
+        "entity": "filter",
+        "start": 25,
+        "value": "rating"
+      },
+      {
+        "end": 42,
+        "entity": "app",
+        "start": 36,
+        "value": "design"
+      },
+      {
+        "end": 51,
+        "entity": "design",
+        "start": 43,
+        "value": "tutorial"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9300086802515337,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9376097035752925,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 43,
+        "end": 51,
+        "value": "tutorial",
+        "entity": "design",
+        "confidence": 0.667476337788372,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] give me least rating players modal UI",
+    "entities": [
+      {
+        "end": 20,
+        "entity": "asc",
+        "start": 15,
+        "value": "least"
+      },
+      {
+        "end": 27,
+        "entity": "filter",
+        "start": 21,
+        "value": "rating"
+      },
+      {
+        "end": 35,
+        "entity": "app",
+        "start": 28,
+        "value": "players"
+      },
+      {
+        "end": 41,
+        "entity": "design",
+        "start": 36,
+        "value": "modal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 28,
+        "end": 35,
+        "value": "players",
+        "entity": "app",
+        "confidence": 0.8890002456369596,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "value": "modal",
+        "entity": "design",
+        "confidence": 0.553867341671775,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the least rating for news applications",
+    "entities": [
+      {
+        "end": 16,
+        "entity": "asc",
+        "start": 11,
+        "value": "least"
+      },
+      {
+        "end": 23,
+        "entity": "filter",
+        "start": 17,
+        "value": "rating"
+      },
+      {
+        "end": 32,
+        "entity": "design",
+        "start": 28,
+        "value": "news"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "1",
+        "entity": "asc",
+        "confidence": 0.5582781747050548,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 23,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.6250640112153285,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "value": "news",
+        "entity": "app",
+        "confidence": 0.6474660767028605,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "find maps UI",
+    "entities": [
+      {
+        "end": 9,
+        "entity": "app",
+        "start": 5,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.6792783744506276,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you give me lowest rating news examples",
+    "entities": [
+      {
+        "end": 22,
+        "entity": "asc",
+        "start": 16,
+        "value": "lowest"
+      },
+      {
+        "end": 29,
+        "entity": "filter",
+        "start": 23,
+        "value": "rating"
+      },
+      {
+        "end": 34,
+        "entity": "app",
+        "start": 30,
+        "value": "news"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "1",
+        "entity": "asc",
+        "confidence": 0.5646235445361685,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8305753107297332,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.6071849114131893,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show me most rating maps applications",
+    "entities": [
+      {
+        "end": 12,
+        "entity": "asc",
+        "start": 8,
+        "value": "most"
+      },
+      {
+        "end": 19,
+        "entity": "filter",
+        "start": 13,
+        "value": "rating"
+      },
+      {
+        "end": 24,
+        "entity": "design",
+        "start": 20,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.8341126971476029,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8981982660906314,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "maps",
+        "entity": "app",
+        "confidence": 0.6171040563220233,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show me least rating entertainment interface",
+    "entities": [
+      {
+        "end": 21,
+        "entity": "asc",
+        "start": 16,
+        "value": "least"
+      },
+      {
+        "end": 28,
+        "entity": "filter",
+        "start": 22,
+        "value": "rating"
+      },
+      {
+        "end": 42,
+        "entity": "app",
+        "start": 29,
+        "value": "entertainment"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 29,
+        "end": 42,
+        "value": "entertainment",
+        "entity": "app",
+        "confidence": 0.9333129295548979,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] give least rating parenting menu design",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 12,
+        "value": "least"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 34,
+        "entity": "app",
+        "start": 25,
+        "value": "parenting"
+      },
+      {
+        "end": 39,
+        "entity": "design",
+        "start": 35,
+        "value": "menu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 34,
+        "value": "parenting",
+        "entity": "app",
+        "confidence": 0.8585097245173298,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "find best rating design design",
+    "entities": [
+      {
+        "end": 9,
+        "entity": "asc",
+        "start": 5,
+        "value": "best"
+      },
+      {
+        "end": 16,
+        "entity": "filter",
+        "start": 10,
+        "value": "rating"
+      },
+      {
+        "end": 23,
+        "entity": "app",
+        "start": 17,
+        "value": "design"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.6917119557287275,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.7713682145025859,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] give communication search result with a rating less than 3",
+    "entities": [
+      {
+        "end": 25,
+        "entity": "app",
+        "start": 12,
+        "value": "communication"
+      },
+      {
+        "end": 32,
+        "entity": "design",
+        "start": 26,
+        "value": "search"
+      },
+      {
+        "end": 63,
+        "entity": "constrain",
+        "start": 54,
+        "value": "less than"
+      },
+      {
+        "end": 65,
+        "entity": "rating",
+        "start": 64,
+        "value": "3"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "value": "communication",
+        "entity": "app",
+        "confidence": 0.8951762100892899,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 54,
+        "end": 63,
+        "value": "max",
+        "entity": "constrain",
+        "confidence": 0.9173892344546544,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 65,
+        "value": "3",
+        "entity": "rating",
+        "confidence": 0.8784571752837039,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the highest rating design",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "asc",
+        "start": 11,
+        "value": "highest"
+      },
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 19,
+        "value": "rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9648322392222375,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9452736362071624,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "design",
+        "entity": "app",
+        "confidence": 0.4189967909600769,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show news interface with a rating below",
+    "entities": [
+      {
+        "end": 9,
+        "entity": "design",
+        "start": 5,
+        "value": "news"
+      },
+      {
+        "end": 39,
+        "entity": "constrain",
+        "start": 34,
+        "value": "below"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.6628573455359297,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give me least rating vehicles bare UI",
+    "entities": [
+      {
+        "end": 28,
+        "entity": "asc",
+        "start": 23,
+        "value": "least"
+      },
+      {
+        "end": 35,
+        "entity": "filter",
+        "start": 29,
+        "value": "rating"
+      },
+      {
+        "end": 44,
+        "entity": "app",
+        "start": 36,
+        "value": "vehicles"
+      },
+      {
+        "end": 49,
+        "entity": "design",
+        "start": 45,
+        "value": "bare"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 36,
+        "end": 44,
+        "value": "vehicles",
+        "entity": "app",
+        "confidence": 0.9026168524463191,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "value": "bare",
+        "entity": "design",
+        "confidence": 0.6759435770309162,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] what are the best rating for travel search results",
+    "entities": [
+      {
+        "end": 24,
+        "entity": "asc",
+        "start": 20,
+        "value": "best"
+      },
+      {
+        "end": 31,
+        "entity": "filter",
+        "start": 25,
+        "value": "rating"
+      },
+      {
+        "end": 42,
+        "entity": "app",
+        "start": 36,
+        "value": "travel"
+      },
+      {
+        "end": 49,
+        "entity": "design",
+        "start": 43,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9046167410106171,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9148116548083971,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "value": "travel",
+        "entity": "app",
+        "confidence": 0.851106198110252,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] find events modal application",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "app",
+        "start": 12,
+        "value": "events"
+      },
+      {
+        "end": 24,
+        "entity": "design",
+        "start": 19,
+        "value": "modal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "events",
+        "entity": "app",
+        "confidence": 0.8074470223012694,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "find least rating menu interface",
+    "entities": [
+      {
+        "end": 10,
+        "entity": "asc",
+        "start": 5,
+        "value": "least"
+      },
+      {
+        "end": 17,
+        "entity": "filter",
+        "start": 11,
+        "value": "rating"
+      },
+      {
+        "end": 22,
+        "entity": "design",
+        "start": 18,
+        "value": "menu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "menu",
+        "entity": "design",
+        "confidence": 0.8643902479953942,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] find me most rating parenting menu result",
+    "entities": [
+      {
+        "end": 19,
+        "entity": "asc",
+        "start": 15,
+        "value": "most"
+      },
+      {
+        "end": 26,
+        "entity": "filter",
+        "start": 20,
+        "value": "rating"
+      },
+      {
+        "end": 36,
+        "entity": "app",
+        "start": 27,
+        "value": "parenting"
+      },
+      {
+        "end": 41,
+        "entity": "design",
+        "start": 37,
+        "value": "menu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.8285350918228688,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8913483513266197,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "value": "parenting",
+        "entity": "app",
+        "confidence": 0.8502070987932467,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show least rating terms design",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "asc",
+        "start": 13,
+        "value": "least"
+      },
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 19,
+        "value": "rating"
+      },
+      {
+        "end": 31,
+        "entity": "design",
+        "start": 26,
+        "value": "terms"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.5020700249338729,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "terms",
+        "entity": "design",
+        "confidence": 0.890008483517283,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] show me house modal application with a rating higher than 4.0",
+    "entities": [
+      {
+        "end": 20,
+        "entity": "app",
+        "start": 15,
+        "value": "house"
+      },
+      {
+        "end": 26,
+        "entity": "design",
+        "start": 21,
+        "value": "modal"
+      },
+      {
+        "end": 64,
+        "entity": "constrain",
+        "start": 53,
+        "value": "higher than"
+      },
+      {
+        "end": 68,
+        "entity": "rating",
+        "start": 65,
+        "value": "4.0"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "house",
+        "entity": "app",
+        "confidence": 0.9421879168169314,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 53,
+        "end": 64,
+        "value": "min",
+        "entity": "constrain",
+        "confidence": 0.9593188026427371,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 65,
+        "end": 68,
+        "value": "4.0",
+        "entity": "rating",
+        "confidence": 0.9765369007459664,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you show news modal applications",
+    "entities": [
+      {
+        "end": 24,
+        "entity": "app",
+        "start": 20,
+        "value": "news"
+      },
+      {
+        "end": 30,
+        "entity": "design",
+        "start": 25,
+        "value": "modal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.5553988978865496,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you give me most rating maps results",
+    "entities": [
+      {
+        "end": 20,
+        "entity": "asc",
+        "start": 16,
+        "value": "most"
+      },
+      {
+        "end": 27,
+        "entity": "filter",
+        "start": 21,
+        "value": "rating"
+      },
+      {
+        "end": 32,
+        "entity": "app",
+        "start": 28,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.8390852948962899,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9041463689657506,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.6473036310995195,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] show least rating communication camera results",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 12,
+        "value": "least"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 38,
+        "entity": "app",
+        "start": 25,
+        "value": "communication"
+      },
+      {
+        "end": 45,
+        "entity": "design",
+        "start": 39,
+        "value": "camera"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 38,
+        "value": "communication",
+        "entity": "app",
+        "confidence": 0.9352843797197192,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "camera",
+        "entity": "design",
+        "confidence": 0.556728605549872,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] What's the highest rating for medical search UI",
+    "entities": [
+      {
+        "end": 25,
+        "entity": "asc",
+        "start": 18,
+        "value": "highest"
+      },
+      {
+        "end": 32,
+        "entity": "filter",
+        "start": 26,
+        "value": "rating"
+      },
+      {
+        "end": 44,
+        "entity": "app",
+        "start": 37,
+        "value": "medical"
+      },
+      {
+        "end": 51,
+        "entity": "design",
+        "start": 45,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9566579686311706,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9294086443103017,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "value": "medical",
+        "entity": "app",
+        "confidence": 0.7790079930536532,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what are the best rating for search design",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 13,
+        "value": "best"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 35,
+        "entity": "design",
+        "start": 29,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9049398249493339,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9152702715550443,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] give me shopping search examples",
+    "entities": [
+      {
+        "end": 23,
+        "entity": "app",
+        "start": 15,
+        "value": "shopping"
+      },
+      {
+        "end": 30,
+        "entity": "design",
+        "start": 24,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "shopping",
+        "entity": "app",
+        "confidence": 0.9207077069039898,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the best rating design",
+    "entities": [
+      {
+        "end": 15,
+        "entity": "asc",
+        "start": 11,
+        "value": "best"
+      },
+      {
+        "end": 22,
+        "entity": "filter",
+        "start": 16,
+        "value": "rating"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9194869659522773,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9343316452258049,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "design",
+        "entity": "app",
+        "confidence": 0.4184284998023907,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you find least rating other applications",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "asc",
+        "start": 13,
+        "value": "least"
+      },
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 19,
+        "value": "rating"
+      },
+      {
+        "end": 31,
+        "entity": "design",
+        "start": 26,
+        "value": "other"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "other",
+        "entity": "design",
+        "confidence": 0.9140528650777964,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give search result",
+    "entities": [
+      {
+        "end": 11,
+        "entity": "design",
+        "start": 5,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "[*0.1] can you show me best rating design menu UIs",
+    "entities": [
+      {
+        "end": 27,
+        "entity": "asc",
+        "start": 23,
+        "value": "best"
+      },
+      {
+        "end": 34,
+        "entity": "filter",
+        "start": 28,
+        "value": "rating"
+      },
+      {
+        "end": 41,
+        "entity": "app",
+        "start": 35,
+        "value": "design"
+      },
+      {
+        "end": 46,
+        "entity": "design",
+        "start": 42,
+        "value": "menu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.7500619869364185,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8098432788871763,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 42,
+        "end": 46,
+        "value": "menu",
+        "entity": "design",
+        "confidence": 0.5203634732209331,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give me maps results with a rating more than",
+    "entities": [
+      {
+        "end": 12,
+        "entity": "app",
+        "start": 8,
+        "value": "maps"
+      },
+      {
+        "end": 44,
+        "entity": "constrain",
+        "start": 35,
+        "value": "more than"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.6397427379698328,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 35,
+        "end": 44,
+        "value": "min",
+        "entity": "constrain",
+        "confidence": 0.7309941451334806,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "can you give least rating calculator examples",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "asc",
+        "start": 13,
+        "value": "least"
+      },
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 19,
+        "value": "rating"
+      },
+      {
+        "end": 36,
+        "entity": "design",
+        "start": 26,
+        "value": "calculator"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 36,
+        "value": "calculator",
+        "entity": "design",
+        "confidence": 0.9160678572376781,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you show least rating beauty menu design",
+    "entities": [
+      {
+        "end": 25,
+        "entity": "asc",
+        "start": 20,
+        "value": "least"
+      },
+      {
+        "end": 32,
+        "entity": "filter",
+        "start": 26,
+        "value": "rating"
+      },
+      {
+        "end": 39,
+        "entity": "app",
+        "start": 33,
+        "value": "beauty"
+      },
+      {
+        "end": 44,
+        "entity": "design",
+        "start": 40,
+        "value": "menu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "beauty",
+        "entity": "app",
+        "confidence": 0.8877340885894568,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you find me home modal example",
+    "entities": [
+      {
+        "end": 27,
+        "entity": "app",
+        "start": 23,
+        "value": "home"
+      },
+      {
+        "end": 33,
+        "entity": "design",
+        "start": 28,
+        "value": "modal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "home",
+        "entity": "app",
+        "confidence": 0.9197984682407419,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show me news example",
+    "entities": [
+      {
+        "end": 20,
+        "entity": "app",
+        "start": 16,
+        "value": "news"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.5873036620380954,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show search designs with a rating more than",
+    "entities": [
+      {
+        "end": 19,
+        "entity": "design",
+        "start": 13,
+        "value": "search"
+      },
+      {
+        "end": 51,
+        "entity": "constrain",
+        "start": 42,
+        "value": "more than"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 42,
+        "end": 51,
+        "value": "min",
+        "entity": "constrain",
+        "confidence": 0.7309941493171644,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] What's the highest rating for design gallery applications",
+    "entities": [
+      {
+        "end": 25,
+        "entity": "asc",
+        "start": 18,
+        "value": "highest"
+      },
+      {
+        "end": 32,
+        "entity": "filter",
+        "start": 26,
+        "value": "rating"
+      },
+      {
+        "end": 43,
+        "entity": "app",
+        "start": 37,
+        "value": "design"
+      },
+      {
+        "end": 51,
+        "entity": "design",
+        "start": 44,
+        "value": "gallery"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9568860048193011,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9299409516735971,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "value": "gallery",
+        "entity": "design",
+        "confidence": 0.7559824752921256,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you give me music application with a rating below",
+    "entities": [
+      {
+        "end": 21,
+        "entity": "app",
+        "start": 16,
+        "value": "music"
+      },
+      {
+        "end": 53,
+        "entity": "constrain",
+        "start": 48,
+        "value": "below"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "music",
+        "entity": "app",
+        "confidence": 0.9367623650844004,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what are the most rating for design applications",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 13,
+        "value": "most"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 35,
+        "entity": "app",
+        "start": 29,
+        "value": "design"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9299190699221869,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9374716791482364,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] show least rating education maps results",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 12,
+        "value": "least"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 34,
+        "entity": "app",
+        "start": 25,
+        "value": "education"
+      },
+      {
+        "end": 39,
+        "entity": "design",
+        "start": 35,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 34,
+        "value": "education",
+        "entity": "app",
+        "confidence": 0.915391875666934,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 35,
+        "end": 39,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.6066026113736606,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show least rating profile result",
+    "entities": [
+      {
+        "end": 10,
+        "entity": "asc",
+        "start": 5,
+        "value": "least"
+      },
+      {
+        "end": 17,
+        "entity": "filter",
+        "start": 11,
+        "value": "rating"
+      },
+      {
+        "end": 25,
+        "entity": "design",
+        "start": 18,
+        "value": "profile"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.5097895514818469,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "value": "profile",
+        "entity": "design",
+        "confidence": 0.938407353530562,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you find least rating video bare application",
+    "entities": [
+      {
+        "end": 25,
+        "entity": "asc",
+        "start": 20,
+        "value": "least"
+      },
+      {
+        "end": 32,
+        "entity": "filter",
+        "start": 26,
+        "value": "rating"
+      },
+      {
+        "end": 38,
+        "entity": "app",
+        "start": 33,
+        "value": "video"
+      },
+      {
+        "end": 43,
+        "entity": "design",
+        "start": 39,
+        "value": "bare"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 33,
+        "end": 38,
+        "value": "video",
+        "entity": "app",
+        "confidence": 0.8844741903904056,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 39,
+        "end": 43,
+        "value": "bare",
+        "entity": "design",
+        "confidence": 0.5709695867566134,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you find me news examples",
+    "entities": [
+      {
+        "end": 20,
+        "entity": "app",
+        "start": 16,
+        "value": "news"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.5946583482255993,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you find me least rating lifestyle interfaces",
+    "entities": [
+      {
+        "end": 21,
+        "entity": "asc",
+        "start": 16,
+        "value": "least"
+      },
+      {
+        "end": 28,
+        "entity": "filter",
+        "start": 22,
+        "value": "rating"
+      },
+      {
+        "end": 38,
+        "entity": "app",
+        "start": 29,
+        "value": "lifestyle"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "lifestyle",
+        "entity": "app",
+        "confidence": 0.9020610922842169,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] find vehicles search example",
+    "entities": [
+      {
+        "end": 20,
+        "entity": "app",
+        "start": 12,
+        "value": "vehicles"
+      },
+      {
+        "end": 27,
+        "entity": "design",
+        "start": 21,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "vehicles",
+        "entity": "app",
+        "confidence": 0.7844499854667358,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] show least rating audio menu designs",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 12,
+        "value": "least"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 30,
+        "entity": "app",
+        "start": 25,
+        "value": "audio"
+      },
+      {
+        "end": 35,
+        "entity": "design",
+        "start": 31,
+        "value": "menu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "audio",
+        "entity": "app",
+        "confidence": 0.8954302154219779,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] find least rating communication editor result",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 12,
+        "value": "least"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 38,
+        "entity": "app",
+        "start": 25,
+        "value": "communication"
+      },
+      {
+        "end": 45,
+        "entity": "design",
+        "start": 39,
+        "value": "editor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 38,
+        "value": "communication",
+        "entity": "app",
+        "confidence": 0.9337630386613212,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "editor",
+        "entity": "design",
+        "confidence": 0.5835360481742216,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give me least rating travel menu UIs",
+    "entities": [
+      {
+        "end": 28,
+        "entity": "asc",
+        "start": 23,
+        "value": "least"
+      },
+      {
+        "end": 35,
+        "entity": "filter",
+        "start": 29,
+        "value": "rating"
+      },
+      {
+        "end": 42,
+        "entity": "app",
+        "start": 36,
+        "value": "travel"
+      },
+      {
+        "end": 47,
+        "entity": "design",
+        "start": 43,
+        "value": "menu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 36,
+        "end": 42,
+        "value": "travel",
+        "entity": "app",
+        "confidence": 0.8987209534650004,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the best rating for maps UI",
+    "entities": [
+      {
+        "end": 15,
+        "entity": "asc",
+        "start": 11,
+        "value": "best"
+      },
+      {
+        "end": 22,
+        "entity": "filter",
+        "start": 16,
+        "value": "rating"
+      },
+      {
+        "end": 31,
+        "entity": "app",
+        "start": 27,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9048682814561313,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9151431856842439,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 27,
+        "end": 31,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.7391730386466167,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give me least rating music design",
+    "entities": [
+      {
+        "end": 13,
+        "entity": "asc",
+        "start": 8,
+        "value": "least"
+      },
+      {
+        "end": 20,
+        "entity": "filter",
+        "start": 14,
+        "value": "rating"
+      },
+      {
+        "end": 26,
+        "entity": "app",
+        "start": 21,
+        "value": "music"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "value": "music",
+        "entity": "app",
+        "confidence": 0.9222450068620767,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show me least rating form design",
+    "entities": [
+      {
+        "end": 13,
+        "entity": "asc",
+        "start": 8,
+        "value": "least"
+      },
+      {
+        "end": 20,
+        "entity": "filter",
+        "start": 14,
+        "value": "rating"
+      },
+      {
+        "end": 25,
+        "entity": "design",
+        "start": 21,
+        "value": "form"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.5478086474470842,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "value": "form",
+        "entity": "design",
+        "confidence": 0.9425607515381226,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what are the lowest rating for maps interfaces",
+    "entities": [
+      {
+        "end": 19,
+        "entity": "asc",
+        "start": 13,
+        "value": "lowest"
+      },
+      {
+        "end": 26,
+        "entity": "filter",
+        "start": 20,
+        "value": "rating"
+      },
+      {
+        "end": 35,
+        "entity": "app",
+        "start": 31,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "1",
+        "entity": "asc",
+        "confidence": 0.7163097383835382,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.8623624750276367,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.8816462052749983,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What's the highest rating for news designs",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "asc",
+        "start": 11,
+        "value": "highest"
+      },
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 19,
+        "value": "rating"
+      },
+      {
+        "end": 34,
+        "entity": "app",
+        "start": 30,
+        "value": "news"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9567585116797754,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.929596865149411,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "value": "news",
+        "entity": "design",
+        "confidence": 0.6272622077047998,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give least rating bare designs",
+    "entities": [
+      {
+        "end": 10,
+        "entity": "asc",
+        "start": 5,
+        "value": "least"
+      },
+      {
+        "end": 17,
+        "entity": "filter",
+        "start": 11,
+        "value": "rating"
+      },
+      {
+        "end": 22,
+        "entity": "design",
+        "start": 18,
+        "value": "bare"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "bare",
+        "entity": "design",
+        "confidence": 0.9047018326056295,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give least rating modal examples",
+    "entities": [
+      {
+        "end": 10,
+        "entity": "asc",
+        "start": 5,
+        "value": "least"
+      },
+      {
+        "end": 17,
+        "entity": "filter",
+        "start": 11,
+        "value": "rating"
+      },
+      {
+        "end": 23,
+        "entity": "design",
+        "start": 18,
+        "value": "modal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "modal",
+        "entity": "design",
+        "confidence": 0.871464221889016,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show design interfaces",
+    "entities": [
+      {
+        "end": 19,
+        "entity": "app",
+        "start": 13,
+        "value": "design"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "[*0.1] What's the least rating for design editor results",
+    "entities": [
+      {
+        "end": 23,
+        "entity": "asc",
+        "start": 18,
+        "value": "least"
+      },
+      {
+        "end": 30,
+        "entity": "filter",
+        "start": 24,
+        "value": "rating"
+      },
+      {
+        "end": 41,
+        "entity": "app",
+        "start": 35,
+        "value": "design"
+      },
+      {
+        "end": 48,
+        "entity": "design",
+        "start": 42,
+        "value": "editor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "1",
+        "entity": "asc",
+        "confidence": 0.5594691848979428,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.6265934276389851,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 42,
+        "end": 48,
+        "value": "editor",
+        "entity": "design",
+        "confidence": 0.6857776855436156,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you show chat example with a rating below",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "design",
+        "start": 13,
+        "value": "chat"
+      },
+      {
+        "end": 45,
+        "entity": "constrain",
+        "start": 40,
+        "value": "below"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "chat",
+        "entity": "design",
+        "confidence": 0.761439463061959,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "find editor examples with a rating below",
+    "entities": [
+      {
+        "end": 11,
+        "entity": "design",
+        "start": 5,
+        "value": "editor"
+      },
+      {
+        "end": 40,
+        "entity": "constrain",
+        "start": 35,
+        "value": "below"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "editor",
+        "entity": "design",
+        "confidence": 0.6873022834119088,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] can you give me drink search UIs with a rating more than 3.0",
+    "entities": [
+      {
+        "end": 28,
+        "entity": "app",
+        "start": 23,
+        "value": "drink"
+      },
+      {
+        "end": 35,
+        "entity": "design",
+        "start": 29,
+        "value": "search"
+      },
+      {
+        "end": 63,
+        "entity": "constrain",
+        "start": 54,
+        "value": "more than"
+      },
+      {
+        "end": 67,
+        "entity": "rating",
+        "start": 64,
+        "value": "3.0"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "drink",
+        "entity": "app",
+        "confidence": 0.928674693638546,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 54,
+        "end": 63,
+        "value": "min",
+        "entity": "constrain",
+        "confidence": 0.9056116550823609,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 67,
+        "value": "3.0",
+        "entity": "rating",
+        "confidence": 0.9598416933481717,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] what are the best rating for business search applications",
+    "entities": [
+      {
+        "end": 24,
+        "entity": "asc",
+        "start": 20,
+        "value": "best"
+      },
+      {
+        "end": 31,
+        "entity": "filter",
+        "start": 25,
+        "value": "rating"
+      },
+      {
+        "end": 44,
+        "entity": "app",
+        "start": 36,
+        "value": "business"
+      },
+      {
+        "end": 51,
+        "entity": "design",
+        "start": 45,
+        "value": "search"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "0",
+        "entity": "asc",
+        "confidence": 0.9045799217041498,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "rating",
+        "entity": "filter",
+        "confidence": 0.9147595146321065,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "value": "business",
+        "entity": "app",
+        "confidence": 0.9355354796291732,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you give least rating art UI",
+    "entities": [
+      {
+        "end": 18,
+        "entity": "asc",
+        "start": 13,
+        "value": "least"
+      },
+      {
+        "end": 25,
+        "entity": "filter",
+        "start": 19,
+        "value": "rating"
+      },
+      {
+        "end": 29,
+        "entity": "app",
+        "start": 26,
+        "value": "art"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 26,
+        "end": 29,
+        "value": "art",
+        "entity": "app",
+        "confidence": 0.9328359409619362,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] find least rating lifestyle gallery designs",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 12,
+        "value": "least"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 34,
+        "entity": "app",
+        "start": 25,
+        "value": "lifestyle"
+      },
+      {
+        "end": 42,
+        "entity": "design",
+        "start": 35,
+        "value": "gallery"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 34,
+        "value": "lifestyle",
+        "entity": "app",
+        "confidence": 0.8841842943292112,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "value": "gallery",
+        "entity": "design",
+        "confidence": 0.5716668751523581,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show me topic UIs with a rating below",
+    "entities": [
+      {
+        "end": 13,
+        "entity": "design",
+        "start": 8,
+        "value": "topic"
+      },
+      {
+        "end": 37,
+        "entity": "constrain",
+        "start": 32,
+        "value": "below"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "topic",
+        "entity": "design",
+        "confidence": 0.8749061797255118,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] show me food modal results",
+    "entities": [
+      {
+        "end": 19,
+        "entity": "app",
+        "start": 15,
+        "value": "food"
+      },
+      {
+        "end": 25,
+        "entity": "design",
+        "start": 20,
+        "value": "modal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "food",
+        "entity": "app",
+        "confidence": 0.661961265719757,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[*0.1] give least rating art maps result",
+    "entities": [
+      {
+        "end": 17,
+        "entity": "asc",
+        "start": 12,
+        "value": "least"
+      },
+      {
+        "end": 24,
+        "entity": "filter",
+        "start": 18,
+        "value": "rating"
+      },
+      {
+        "end": 28,
+        "entity": "app",
+        "start": 25,
+        "value": "art"
+      },
+      {
+        "end": 33,
+        "entity": "design",
+        "start": 29,
+        "value": "maps"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 28,
+        "value": "art",
+        "entity": "app",
+        "confidence": 0.8541568757296951,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "maps",
+        "entity": "design",
+        "confidence": 0.6048265490120524,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]
