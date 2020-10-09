@@ -16,7 +16,7 @@ from PIL import Image
 from io import BytesIO
 
 
-ENRICO_DATASET_DIR = "../recommender/enrico"
+ENRICO_DATASET_DIR = "../recommender/enrico/screenshots"
 
 def thumbnail(screenshot_id):
     img_file = '{}/{}.jpg'.format(ENRICO_DATASET_DIR, screenshot_id)
@@ -278,9 +278,13 @@ class query_form(FormAction):
 
                         # Send the thumbnails to the bot
                         suggestion_text = '<ol class="choices ml-0">'
+                        count = 0
                         for screenshot_id in response['data']:
+                            count += 1
                             img = thumbnail(screenshot_id)
                             suggestion_text += '<li><img alt="{}" src="data:image/png;base64, {}" /></li>'.format(screenshot_id, str_image(img))
+                            if count == 3:
+                                suggestion_text += '<br><br>'
                         suggestion_text += '</ol>'
                         dispatcher.utter_message(text = suggestion_text)
 
