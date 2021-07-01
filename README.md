@@ -1,4 +1,4 @@
-# HEY GUI (Conversations with GUIs)
+# Hey GUI (Conversations with GUIs)
 ### By Kashyap Todi, Luis Leiva, Daniel Buschek, Pin Tian, Antti Oulasvirta
 ### In Proceedings of the 2021 ACM Designing Interactive Systems Conference (DIS '21)
 ### https://userinterfaces.aalto.fi/hey_gui
